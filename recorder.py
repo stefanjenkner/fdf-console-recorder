@@ -21,11 +21,11 @@ def main():
         if not console.is_open:
             try:
                 console.open()
-                console.write("C\n")
+                console.write('C\n'.encode('utf-8'))
                 out = console.readline()
                 print("Connected.")
 
-            except:
+            except KeyError:
                 print("Error opening connection")
                 if sessionFile:
                     sessionFile.close()
@@ -39,7 +39,12 @@ def main():
             if sessionFile is None:
                 sessionFile = open_new_file(milliseconds)
 
-            out = console.readline()
+            out = ""
+            out_bytes = console.readline()
+            print(out_bytes)
+            if out_bytes != '':
+                out = out_bytes.decode('utf-8')
+                out = out.strip()
             if out[:1] == "A":
                 capture = Capture(out) 
                 
@@ -59,7 +64,7 @@ def main():
                 sessionFile.close()
             if console.is_open:
                 print("Closing connection.")
-                console.write("D\n")
+                console.write('D\n'.encode('utf-8'))
                 console.close()
             exit()
 
@@ -76,5 +81,3 @@ def open_new_file(milliseconds):
 if __name__ == '__main__':
     main()
 
-
-        

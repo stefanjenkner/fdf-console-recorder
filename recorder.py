@@ -25,7 +25,7 @@ def main():
                 out = console.readline()
                 print("Connected.")
 
-            except KeyError:
+            except:
                 print("Error opening connection")
                 if sessionFile:
                     sessionFile.close()

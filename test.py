@@ -24,7 +24,7 @@ class TestSum(unittest.TestCase):
                 export.add_trackpoint(Capture(int(milliseconds), data))
         print(export.tostring())
 
-    def test_export(self):
+    def test_export_write(self):
         export = Export()
         with open("samples/1670609153225.txt", encoding='utf-8') as f:
             for line in f.readlines():
@@ -33,6 +33,15 @@ class TestSum(unittest.TestCase):
         with open("samples/1670609153225.tcx", 'wb') as f:
             export.write(f)
 
+    def test_export_enhance(self):
+        export = Export()
+        export.load_heartratebpm("samples/1670609153225_watch.tcx")
+        with open("samples/1670609153225.txt", encoding='utf-8') as f:
+            for line in f.readlines():
+                (milliseconds, data) = line.split(" ")
+                export.add_trackpoint(Capture(int(milliseconds), data))
+        with open("samples/1670609153225_enhanced.tcx", 'wb') as f:
+            export.write(f)
 
 if __name__ == '__main__':
     unittest.main()

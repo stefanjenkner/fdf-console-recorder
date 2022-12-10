@@ -4,9 +4,9 @@ from io import BytesIO
 
 from monitor import Capture
 
-XSI = "http://www.w3.org/2001/XMLSchema-instance"
-TCD = "http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2"
-AE = "http://www.garmin.com/xmlschemas/ActivityExtension/v2"
+XSI_NS = "http://www.w3.org/2001/XMLSchema-instance"
+TCD_NS = "http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2"
+AE_NS = "http://www.garmin.com/xmlschemas/ActivityExtension/v2"
 
 class Export(object):
 
@@ -23,13 +23,14 @@ class Export(object):
     #_AverageHeartRateBpmValue = None
     _track = None
     _extensions = None
+    _heartrates = []
 
     def __init__(self):
         builder = ET.TreeBuilder()
-        ET.register_namespace("", TCD)
-        ET.register_namespace("xsi", XSI)
-        ET.register_namespace("ae", AE)
-        builder.start("{"+TCD+"}TrainingCenterDatabase", {})
+        ET.register_namespace("", TCD_NS)
+        ET.register_namespace("xsi", XSI_NS)
+        ET.register_namespace("ae", AE_NS)
+        builder.start("{" + TCD_NS + "}TrainingCenterDatabase", {})
         builder.start("Activities", {})
         builder.start("Activity", {"Sport": "Other"})
         self._id = self._add_empty(builder, "Id")
@@ -43,11 +44,19 @@ class Export(object):
         builder.end("Track")
         self._extensions = builder.start("Extensions", {})
         self._root = builder.close()
-        lx = ET.SubElement(self._extensions, "{"+AE+"}LX")
-        self._maxWatts = ET.SubElement(lx, "{"+AE+"}MaxWatts")
+        lx = ET.SubElement(self._extensions, "{" + AE_NS + "}LX")
+        self._maxWatts = ET.SubElement(lx, "{" + AE_NS + "}MaxWatts")
+
+    def load_heartratebpm(self, filename: str):
+        self._heartrates = {}
+        tree = ET.parse(filename)
+        for trackpoint in tree.findall(".//{" + TCD_NS + "}Trackpoint[{" + TCD_NS + "}HeartRateBpm]"):
+            iso_time = trackpoint.find("{" + TCD_NS + "}Time").text
+            heartratebpm = trackpoint.find("{" + TCD_NS + "}HeartRateBpm/{" + TCD_NS + "}Value").text
+            self._heartrates[iso_time] = heartratebpm
 
 
-    def add_trackpoint(self, capture:Capture):
+    def add_trackpoint(self, capture: Capture):
         """
 
         :return:
@@ -56,23 +65,35 @@ class Export(object):
         if not self._isInitialized:
             self._init(capture)
 
-        totalTimeSeconds = capture.totalMinutes*60 + capture.totalSeconds
-        totalTimeHours = totalTimeSeconds/3600
-        self._totalTimeSeconds.text = str(totalTimeSeconds)
+        total_time_seconds = capture.totalMinutes*60 + capture.totalSeconds
+        total_time_hours = total_time_seconds/3600
+        iso_time = self._get_formated_time(capture)
+
+        self._totalTimeSeconds.text = str(total_time_seconds)
         self._distanceMeters.text = str(capture.distance)
         # fix
-        self._calories.text = str(round(capture.caloriesPerHour*totalTimeHours))
+        self._calories.text = str(round(capture.caloriesPerHour*total_time_hours))
 
         trackpoint = ET.SubElement(self._track, "Trackpoint")
+
         time = ET.SubElement(trackpoint, "Time")
-        time.text = self._get_formated_time(capture)
+        time.text = iso_time
+
         distance_meters = ET.SubElement(trackpoint, "DistanceMeters")
         distance_meters.text = str(capture.distance)
+
         cadence = ET.SubElement(trackpoint, "Cadence")
         cadence.text = str(capture.strokesPerMinute)
+
+        if iso_time in self._heartrates:
+            bpm = self._heartrates[iso_time]
+            self._add_heart_rate(bpm, trackpoint)
+        elif len(self._heartrates) > 0:
+            print("No heart rate for: " + iso_time)
+
         extensions = ET.SubElement(trackpoint, "Extensions")
-        tpx = ET.SubElement(extensions, "{"+AE+"}TPX")
-        watts = ET.SubElement(tpx, "{"+AE+"}Watts")
+        tpx = ET.SubElement(extensions, "{" + AE_NS + "}TPX")
+        watts = ET.SubElement(tpx, "{" + AE_NS + "}Watts")
         watts.text = str(capture.watt)
 
         if not self._maxWatts.text:
@@ -105,3 +126,9 @@ class Export(object):
     def _add_empty(builder, tag):
         builder.start(tag, {})
         return builder.end(tag)
+
+    @staticmethod
+    def _add_heart_rate(bpm, trackpoint):
+        heartratebpm = ET.SubElement(trackpoint, "HeartRateBpm")
+        heartratebpm_value = ET.SubElement(heartratebpm, "Value")
+        heartratebpm_value.text = bpm

@@ -3,7 +3,7 @@ import unittest
 from monitor import Capture, Export
 from datetime import datetime
 
-class TestSum(unittest.TestCase):
+class TestExport(unittest.TestCase):
 
     def test_parse(self):
         capture = Capture(1670609153225, "A8001340038410210033165086504")

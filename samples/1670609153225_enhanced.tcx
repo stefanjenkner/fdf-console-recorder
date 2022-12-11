@@ -2,8 +2,8 @@
 <TrainingCenterDatabase xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2" xmlns:ae="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
 	<Activities>
 		<Activity Sport="Other">
-			<Id>2022-12-09T18:05:53Z</Id>
-			<Lap StartTime="2022-12-09T18:05:53Z">
+			<Id>2022-12-09T18:05:49Z</Id>
+			<Lap StartTime="2022-12-09T18:05:49Z">
 				<TotalTimeSeconds>1812</TotalTimeSeconds>
 				<DistanceMeters>6300</DistanceMeters>
 				<Calories>367</Calories>

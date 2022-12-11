@@ -67,7 +67,7 @@ class Export(object):
             self._init(capture)
 
         total_time_seconds = capture.totalMinutes*60 + capture.totalSeconds
-        iso_time = self._get_formated_time(capture)
+        iso_time = self._get_formatted_time(capture.time)
 
         self._totalTimeSeconds.text = str(total_time_seconds)
         self._distanceMeters.text = str(capture.distance)
@@ -103,8 +103,12 @@ class Export(object):
     def _init(self, first_capture: Capture):
         self._intensity.text = "Active"
         self._triggerMethod.text = "Manual"
-        self._id.text = self._get_formated_time(first_capture)
-        self._lap.attrib["StartTime"] = self._get_formated_time(first_capture)
+
+        start_time = first_capture.time - datetime.timedelta(seconds=first_capture.totalSeconds)
+        formatted_start_time = self._get_formatted_time(start_time)
+        self._id.text = formatted_start_time
+        self._lap.attrib["StartTime"] = formatted_start_time
+
         self._isInitialized = True
 
     def _update_calories(self):
@@ -137,8 +141,8 @@ class Export(object):
         return result.getvalue().decode()
 
     @staticmethod
-    def _get_formated_time(capture):
-        return capture.time.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    def _get_formatted_time(time: datetime):
+        return time.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
     @staticmethod
     def _add_empty(builder, tag):

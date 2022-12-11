@@ -2,12 +2,14 @@ import datetime
 import xml.etree.ElementTree as ET
 from io import BytesIO
 from statistics import harmonic_mean
+from collections import OrderedDict
 
 from monitor import Capture
 
 XSI_NS = "http://www.w3.org/2001/XMLSchema-instance"
 TCD_NS = "http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2"
 AE_NS = "http://www.garmin.com/xmlschemas/ActivityExtension/v2"
+
 
 class Export(object):
 
@@ -69,7 +71,6 @@ class Export(object):
             heartratebpm = trackpoint.find("{" + TCD_NS + "}HeartRateBpm/{" + TCD_NS + "}Value").text
             self._external_heart_rates[iso_time] = heartratebpm
 
-
     def add_trackpoint(self, capture: Capture):
         """
 
@@ -107,7 +108,10 @@ class Export(object):
         extensions = ET.SubElement(trackpoint, "Extensions")
         tpx = ET.SubElement(extensions, "{" + AE_NS + "}TPX")
 
-        meters_per_second = 500 / (capture.minutesTo500m*60 + capture.secondsTo500m)
+        try:
+            meters_per_second = 500 / (capture.minutesTo500m*60 + capture.secondsTo500m)
+        except ZeroDivisionError:
+            meters_per_second = 0.0
         self._speeds[total_time_seconds] = round(meters_per_second, 2)
         speed = ET.SubElement(tpx, "{" + AE_NS + "}Speed")
         speed.text = f'{meters_per_second:.02f}'
@@ -115,7 +119,6 @@ class Export(object):
         watts = ET.SubElement(tpx, "{" + AE_NS + "}Watts")
         watts.text = str(capture.watt)
         self._watts[total_time_seconds] = capture.watt
-
 
     def _init(self, first_capture: Capture):
         self._intensity.text = "Active"
@@ -174,8 +177,10 @@ class Export(object):
     def _get_stats(time_series: dict):
         distribution = {}
         elapsed_seconds = 0
-        for second, value in time_series.items():
-            distribution[value] = distribution.get(value, 0) + second - elapsed_seconds
+        ordered_time_series = OrderedDict(sorted(time_series.items()))
+        for second, value in ordered_time_series.items():
+            if value > 0:
+                distribution[value] = distribution.get(value, 0) + second - elapsed_seconds
             elapsed_seconds = second
         maximum = max(distribution.keys())
         mean = harmonic_mean(distribution.keys(), weights=distribution.values())

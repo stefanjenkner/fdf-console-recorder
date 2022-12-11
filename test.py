@@ -22,14 +22,6 @@ class TestParse(unittest.TestCase):
 
 class TestExport(unittest.TestCase):
 
-    def test_export_tostring(self):
-        export = Export()
-        with open("samples/1670609153225.txt", encoding='utf-8') as f:
-            for line in f.readlines():
-                (milliseconds, data) = line.split(" ")
-                export.add_trackpoint(Capture(int(milliseconds), data))
-        print(export.tostring())
-
     def test_export_write(self):
         export = Export()
         with open("samples/1670609153225.txt", encoding='utf-8') as f:
@@ -37,6 +29,18 @@ class TestExport(unittest.TestCase):
                 (milliseconds, data) = line.split(" ")
                 export.add_trackpoint(Capture(int(milliseconds), data))
         with open("samples/1670609153225.tcx", 'wb') as f:
+            export.write(f)
+
+
+class TestExport2(unittest.TestCase):
+
+    def test_export_write(self):
+        export = Export()
+        with open("samples/1670790032608.txt", encoding='utf-8') as f:
+            for line in f.readlines():
+                (milliseconds, data) = line.split(" ")
+                export.add_trackpoint(Capture(int(milliseconds), data))
+        with open("samples/1670790032608.tcx", 'wb') as f:
             export.write(f)
 
 

@@ -20,16 +20,19 @@ class Export(object):
     _maximum_speed = None
     _calories = None
     _intensity = None
-    _avg_heartrate_value = None
-    _max_heartrate_value = None
-    _maxWatts = None
+    _avg_heart_rate_value = None
+    _max_heart_rate_value = None
+    _avg_watts = None
+    _max_watts = None
     _avg_speed = None
     _triggerMethod = None
     _track = None
-    _caloriesPerHour = {}
-    _heartrates = {}
-    _external_heartrates = {}
+
+    _calories_per_hour = {}
+    _heart_rates = {}
+    _external_heart_rates = {}
     _speeds = {}
+    _watts = {}
 
     def __init__(self):
         builder = ET.TreeBuilder()
@@ -45,8 +48,8 @@ class Export(object):
         self._distanceMeters = self._add_empty(builder, "DistanceMeters")
         self._maximum_speed = self._add_empty(builder, "MaximumSpeed")
         self._calories = self._add_empty(builder, "Calories")
-        self._avg_heartrate_value = Export._add_value_element(self._lap, "AverageHeartRateBpm")
-        self._max_heartrate_value = Export._add_value_element(self._lap, "MaximumHeartRateBpm")
+        self._avg_heart_rate_value = Export._add_value_element(self._lap, "AverageHeartRateBpm")
+        self._max_heart_rate_value = Export._add_value_element(self._lap, "MaximumHeartRateBpm")
         self._intensity = self._add_empty(builder, "Intensity")
         self._triggerMethod = self._add_empty(builder, "TriggerMethod")
         self._track = builder.start("Track", {})
@@ -55,15 +58,16 @@ class Export(object):
         self._root = builder.close()
         lx = ET.SubElement(extensions, "{" + AE_NS + "}LX")
         self._avg_speed = ET.SubElement(lx, "{" + AE_NS + "}AvgSpeed")
-        self._maxWatts = ET.SubElement(lx, "{" + AE_NS + "}MaxWatts")
+        self._avg_watts = ET.SubElement(lx, "{" + AE_NS + "}AvgWatts")
+        self._max_watts = ET.SubElement(lx, "{" + AE_NS + "}MaxWatts")
 
     def load_heartratebpm(self, filename: str):
-        self._external_heartrates = {}
+        self._external_heart_rates = {}
         tree = ET.parse(filename)
         for trackpoint in tree.findall(".//{" + TCD_NS + "}Trackpoint[{" + TCD_NS + "}HeartRateBpm]"):
             iso_time = trackpoint.find("{" + TCD_NS + "}Time").text
             heartratebpm = trackpoint.find("{" + TCD_NS + "}HeartRateBpm/{" + TCD_NS + "}Value").text
-            self._external_heartrates[iso_time] = heartratebpm
+            self._external_heart_rates[iso_time] = heartratebpm
 
 
     def add_trackpoint(self, capture: Capture):
@@ -80,7 +84,7 @@ class Export(object):
 
         self._totalTimeSeconds.text = str(total_time_seconds)
         self._distanceMeters.text = str(capture.distance)
-        self._caloriesPerHour[total_time_seconds] = capture.caloriesPerHour
+        self._calories_per_hour[total_time_seconds] = capture.caloriesPerHour
 
         trackpoint = ET.SubElement(self._track, "Trackpoint")
 
@@ -93,11 +97,11 @@ class Export(object):
         cadence = ET.SubElement(trackpoint, "Cadence")
         cadence.text = str(capture.strokesPerMinute)
 
-        if iso_time in self._external_heartrates:
-            bpm = self._external_heartrates[iso_time]
+        if iso_time in self._external_heart_rates:
+            bpm = self._external_heart_rates[iso_time]
             Export._add_value_element(trackpoint, "HeartRateBpm", bpm)
-            self._heartrates[total_time_seconds] = int(bpm)
-        elif len(self._external_heartrates) > 0:
+            self._heart_rates[total_time_seconds] = int(bpm)
+        elif len(self._external_heart_rates) > 0:
             print("No heart rate for: " + iso_time)
 
         extensions = ET.SubElement(trackpoint, "Extensions")
@@ -110,10 +114,7 @@ class Export(object):
 
         watts = ET.SubElement(tpx, "{" + AE_NS + "}Watts")
         watts.text = str(capture.watt)
-        if not self._maxWatts.text:
-            self._maxWatts.text = str(capture.watt)
-        else:
-            self._maxWatts.text = str(max(int(self._maxWatts.text), capture.watt))
+        self._watts[total_time_seconds] = capture.watt
 
 
     def _init(self, first_capture: Capture):
@@ -129,38 +130,27 @@ class Export(object):
 
     def _post_processing(self):
         self._update_calories()
-        self._update_heartrate_stats()
+        self._update_heart_rate_stats()
+        self._update_watts_stats()
         self._update_speed_stats()
 
     def _update_calories(self):
-        calphs = {}
-        elapsed_seconds = 0
-        for second, calph in self._caloriesPerHour.items():
-            calphs[calph] = calphs.get(calph, 0) + second - elapsed_seconds
-            elapsed_seconds = second
-        mean = harmonic_mean(calphs.keys(), weights=calphs.values())
+        _, mean = Export._get_stats(self._calories_per_hour)
         total_time_hours = int(self._totalTimeSeconds.text) / 3600
         self._calories.text = str(round(mean * total_time_hours))
 
-    def _update_heartrate_stats(self):
-        heartrates = {}
-        elapsed_seconds = 0
-        for second, bpm in self._heartrates.items():
-            heartrates[bpm] = heartrates.get(bpm, 0) + second - elapsed_seconds
-            elapsed_seconds = second
-        mean = harmonic_mean(heartrates.keys(), weights=heartrates.values())
-        maximum = max(heartrates.keys())
-        self._avg_heartrate_value.text = str(round(mean))
-        self._max_heartrate_value.text = str(maximum)
+    def _update_heart_rate_stats(self):
+        maximum, mean = Export._get_stats(self._heart_rates)
+        self._avg_heart_rate_value.text = str(round(mean))
+        self._max_heart_rate_value.text = str(maximum)
+
+    def _update_watts_stats(self):
+        maximum, mean = Export._get_stats(self._watts)
+        self._avg_watts.text = str(round(mean))
+        self._max_watts.text = str(maximum)
 
     def _update_speed_stats(self):
-        speeds = {}
-        elapsed_seconds = 0
-        for second, meters_per_second in self._speeds.items():
-            speeds[meters_per_second] = speeds.get(meters_per_second, 0) + second - elapsed_seconds
-            elapsed_seconds = second
-        mean = harmonic_mean(speeds.keys(), weights=speeds.values())
-        maximum = max(speeds.keys())
+        maximum, mean = Export._get_stats(self._speeds)
         self._avg_speed.text = f'{mean:.02f}'
         self._maximum_speed.text = f'{maximum:.02f}'
 
@@ -175,6 +165,17 @@ class Export(object):
         ET.indent(self._root, space="\t", level=0)
         ET.ElementTree(self._root).write(result, encoding='utf-8', method="xml",xml_declaration=True)
         return result.getvalue().decode()
+
+    @staticmethod
+    def _get_stats(time_series: dict):
+        distribution = {}
+        elapsed_seconds = 0
+        for second, value in time_series.items():
+            distribution[value] = distribution.get(value, 0) + second - elapsed_seconds
+            elapsed_seconds = second
+        maximum = max(distribution.keys())
+        mean = harmonic_mean(distribution.keys(), weights=distribution.values())
+        return maximum, mean
 
     @staticmethod
     def _get_formatted_time(time: datetime):

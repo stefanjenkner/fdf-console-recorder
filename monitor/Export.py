@@ -19,12 +19,13 @@ class Export(object):
     _distanceMeters = None
     _calories = None
     _intensity = None
+    _avg_heartrate_value = None
+    _max_heartrate_value = None
     _triggerMethod = None
-    #_MaximumHeartRateBpmValue = None
-    #_AverageHeartRateBpmValue = None
     _track = None
-    _heartrates = {}
     _caloriesPerHour = {}
+    _heartrates = {}
+    _external_heartrates = {}
 
     def __init__(self):
         builder = ET.TreeBuilder()
@@ -39,6 +40,8 @@ class Export(object):
         self._totalTimeSeconds = self._add_empty(builder, "TotalTimeSeconds")
         self._distanceMeters = self._add_empty(builder, "DistanceMeters")
         self._calories = self._add_empty(builder, "Calories")
+        self._avg_heartrate_value = Export._add_value_element(self._lap, "AverageHeartRateBpm")
+        self._max_heartrate_value = Export._add_value_element(self._lap, "MaximumHeartRateBpm")
         self._intensity = self._add_empty(builder, "Intensity")
         self._triggerMethod = self._add_empty(builder, "TriggerMethod")
         self._track = builder.start("Track", {})
@@ -49,12 +52,12 @@ class Export(object):
         self._maxWatts = ET.SubElement(lx, "{" + AE_NS + "}MaxWatts")
 
     def load_heartratebpm(self, filename: str):
-        self._heartrates = {}
+        self._external_heartrates = {}
         tree = ET.parse(filename)
         for trackpoint in tree.findall(".//{" + TCD_NS + "}Trackpoint[{" + TCD_NS + "}HeartRateBpm]"):
             iso_time = trackpoint.find("{" + TCD_NS + "}Time").text
             heartratebpm = trackpoint.find("{" + TCD_NS + "}HeartRateBpm/{" + TCD_NS + "}Value").text
-            self._heartrates[iso_time] = heartratebpm
+            self._external_heartrates[iso_time] = heartratebpm
 
 
     def add_trackpoint(self, capture: Capture):
@@ -84,10 +87,11 @@ class Export(object):
         cadence = ET.SubElement(trackpoint, "Cadence")
         cadence.text = str(capture.strokesPerMinute)
 
-        if iso_time in self._heartrates:
-            bpm = self._heartrates[iso_time]
-            self._add_heart_rate(bpm, trackpoint)
-        elif len(self._heartrates) > 0:
+        if iso_time in self._external_heartrates:
+            bpm = self._external_heartrates[iso_time]
+            Export._add_value_element(trackpoint, "HeartRateBpm", bpm)
+            self._heartrates[total_time_seconds] = int(bpm)
+        elif len(self._external_heartrates) > 0:
             print("No heart rate for: " + iso_time)
 
         extensions = ET.SubElement(trackpoint, "Extensions")
@@ -111,23 +115,37 @@ class Export(object):
 
         self._isInitialized = True
 
+    def _post_processing(self):
+        self._update_calories()
+        self._update_heartrate_stats()
+
     def _update_calories(self):
         calphs = {}
         elapsed_seconds = 0
         for second, calph in self._caloriesPerHour.items():
             calphs[calph] = calphs.get(calph, 0) + second - elapsed_seconds
             elapsed_seconds = second
-        calph_mean = harmonic_mean(calphs.keys(), weights=calphs.values())
-        total_time_hours = int(self._totalTimeSeconds.text)/3600
-        self._calories.text = str(round(calph_mean * total_time_hours))
+        mean = harmonic_mean(calphs.keys(), weights=calphs.values())
+        total_time_hours = int(self._totalTimeSeconds.text) / 3600
+        self._calories.text = str(round(mean * total_time_hours))
+
+    def _update_heartrate_stats(self):
+        heartrates = {}
+        elapsed_seconds = 0
+        for second, bpm in self._heartrates.items():
+            heartrates[bpm] = heartrates.get(bpm, 0) + second - elapsed_seconds
+            elapsed_seconds = second
+        mean = harmonic_mean(heartrates.keys(), weights=heartrates.values())
+        self._avg_heartrate_value.text = str(round(mean))
+        self._max_heartrate_value.text = str(max(heartrates.keys()))
 
     def write(self, f):
-        self._update_calories()
+        self._post_processing()
         ET.indent(self._root, space="\t", level=0)
         ET.ElementTree(self._root).write(f, encoding='utf-8', method="xml",xml_declaration=True)
 
     def tostring(self):
-        self._update_calories()
+        self._post_processing()
         result = BytesIO()
         ET.indent(self._root, space="\t", level=0)
         ET.ElementTree(self._root).write(result, encoding='utf-8', method="xml",xml_declaration=True)
@@ -143,7 +161,8 @@ class Export(object):
         return builder.end(tag)
 
     @staticmethod
-    def _add_heart_rate(bpm, trackpoint):
-        heartratebpm = ET.SubElement(trackpoint, "HeartRateBpm")
-        heartratebpm_value = ET.SubElement(heartratebpm, "Value")
-        heartratebpm_value.text = bpm
+    def _add_value_element(parent, tag, value=''):
+        element = ET.SubElement(parent, tag)
+        value_element = ET.SubElement(element, "Value")
+        value_element.text = value
+        return value_element

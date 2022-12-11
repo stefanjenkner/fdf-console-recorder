@@ -7,6 +7,12 @@
 				<TotalTimeSeconds>1812</TotalTimeSeconds>
 				<DistanceMeters>6300</DistanceMeters>
 				<Calories>367</Calories>
+				<AverageHeartRateBpm>
+					<Value>117</Value>
+				</AverageHeartRateBpm>
+				<MaximumHeartRateBpm>
+					<Value>126</Value>
+				</MaximumHeartRateBpm>
 				<Intensity>Active</Intensity>
 				<TriggerMethod>Manual</TriggerMethod>
 				<Track>

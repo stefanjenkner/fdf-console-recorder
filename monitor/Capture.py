@@ -20,6 +20,8 @@ class Capture(object):
         self.totalMinutes = int(raw[3:5], base=10)
         self.totalSeconds = int(raw[5:7], base=10)
         self.distance = int(raw[7:12], base=10)
+        self.minutesTo500m = int(raw[13:15], base=10)
+        self.secondsTo500m = int(raw[15:17], base=10)
         self.strokesPerMinute = int(raw[17:20], base=10)
         self.watt = int(raw[20:23], base=10)
         self.caloriesPerHour = int(raw[23:27], base=10)

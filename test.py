@@ -11,6 +11,8 @@ class TestExport(unittest.TestCase):
         self.assertEqual(1, capture.totalMinutes)
         self.assertEqual(34, capture.totalSeconds)
         self.assertEqual(384, capture.distance)
+        self.assertEqual(2, capture.minutesTo500m)
+        self.assertEqual(10, capture.secondsTo500m)
         self.assertEqual(33, capture.strokesPerMinute)
         self.assertEqual(165, capture.watt)
         self.assertEqual(865, capture.caloriesPerHour)

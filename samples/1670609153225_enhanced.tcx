@@ -6,6 +6,7 @@
 			<Lap StartTime="2022-12-09T18:05:49Z">
 				<TotalTimeSeconds>1812</TotalTimeSeconds>
 				<DistanceMeters>6300</DistanceMeters>
+				<MaximumSpeed>3.97</MaximumSpeed>
 				<Calories>367</Calories>
 				<AverageHeartRateBpm>
 					<Value>117</Value>
@@ -25,6 +26,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>1.87</ae:Speed>
 								<ae:Watts>108</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -38,6 +40,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.07</ae:Speed>
 								<ae:Watts>105</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -51,6 +54,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -64,6 +68,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -77,6 +82,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.82</ae:Speed>
 								<ae:Watts>129</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -90,6 +96,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.91</ae:Speed>
 								<ae:Watts>155</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -103,6 +110,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.82</ae:Speed>
 								<ae:Watts>149</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -116,6 +124,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>136</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -129,6 +138,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.82</ae:Speed>
 								<ae:Watts>152</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -142,6 +152,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.88</ae:Speed>
 								<ae:Watts>167</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -155,6 +166,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.82</ae:Speed>
 								<ae:Watts>150</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -168,6 +180,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.76</ae:Speed>
 								<ae:Watts>147</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -181,6 +194,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.73</ae:Speed>
 								<ae:Watts>149</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -194,6 +208,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.79</ae:Speed>
 								<ae:Watts>137</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -207,6 +222,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.76</ae:Speed>
 								<ae:Watts>149</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -220,6 +236,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.85</ae:Speed>
 								<ae:Watts>155</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -233,6 +250,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.97</ae:Speed>
 								<ae:Watts>165</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -246,6 +264,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.97</ae:Speed>
 								<ae:Watts>171</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -259,6 +278,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.85</ae:Speed>
 								<ae:Watts>145</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -272,6 +292,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.79</ae:Speed>
 								<ae:Watts>145</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -285,6 +306,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.94</ae:Speed>
 								<ae:Watts>160</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -298,6 +320,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.88</ae:Speed>
 								<ae:Watts>158</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -311,6 +334,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.91</ae:Speed>
 								<ae:Watts>165</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -324,6 +348,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>136</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -337,6 +362,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>142</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -350,6 +376,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>128</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -363,6 +390,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>140</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -376,6 +404,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.85</ae:Speed>
 								<ae:Watts>162</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -389,6 +418,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.88</ae:Speed>
 								<ae:Watts>165</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -402,6 +432,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.73</ae:Speed>
 								<ae:Watts>152</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -415,6 +446,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.65</ae:Speed>
 								<ae:Watts>135</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -428,6 +460,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.73</ae:Speed>
 								<ae:Watts>162</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -441,6 +474,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.82</ae:Speed>
 								<ae:Watts>169</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -454,6 +488,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>150</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -467,6 +502,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>145</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -480,6 +516,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>131</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -493,6 +530,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>132</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -506,6 +544,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>140</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -519,6 +558,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>120</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -532,6 +572,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -545,6 +586,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>126</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -558,6 +600,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>142</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -571,6 +614,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.73</ae:Speed>
 								<ae:Watts>149</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -584,6 +628,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.82</ae:Speed>
 								<ae:Watts>163</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -597,6 +642,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.73</ae:Speed>
 								<ae:Watts>149</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -610,6 +656,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>149</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -623,6 +670,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>140</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -636,6 +684,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>135</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -649,6 +698,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.76</ae:Speed>
 								<ae:Watts>158</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -662,6 +712,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>147</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -675,6 +726,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>130</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -688,6 +740,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>144</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -701,6 +754,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.79</ae:Speed>
 								<ae:Watts>160</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -714,6 +768,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>149</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -727,6 +782,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>137</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -740,6 +796,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>135</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -753,6 +810,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>129</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -766,6 +824,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>148</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -779,6 +838,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>127</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -792,6 +852,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>138</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -805,6 +866,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>150</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -818,6 +880,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.65</ae:Speed>
 								<ae:Watts>144</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -831,6 +894,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>155</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -844,6 +908,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.65</ae:Speed>
 								<ae:Watts>142</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -857,6 +922,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.79</ae:Speed>
 								<ae:Watts>155</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -870,6 +936,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>136</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -883,6 +950,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.76</ae:Speed>
 								<ae:Watts>149</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -896,6 +964,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.82</ae:Speed>
 								<ae:Watts>167</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -909,6 +978,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>135</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -922,6 +992,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.65</ae:Speed>
 								<ae:Watts>144</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -935,6 +1006,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>147</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -948,6 +1020,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>143</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -961,6 +1034,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>132</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -974,6 +1048,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -987,6 +1062,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>140</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1000,6 +1076,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.73</ae:Speed>
 								<ae:Watts>149</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1013,6 +1090,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.79</ae:Speed>
 								<ae:Watts>163</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1026,6 +1104,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.65</ae:Speed>
 								<ae:Watts>138</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1039,6 +1118,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.76</ae:Speed>
 								<ae:Watts>155</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1052,6 +1132,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>143</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1065,6 +1146,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.65</ae:Speed>
 								<ae:Watts>142</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1078,6 +1160,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.65</ae:Speed>
 								<ae:Watts>143</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1091,6 +1174,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>137</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1104,6 +1188,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>138</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1117,6 +1202,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>127</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1130,6 +1216,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>127</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1143,6 +1230,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>129</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1156,6 +1244,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>135</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1169,6 +1258,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>130</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1182,6 +1272,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>131</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1195,6 +1286,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>127</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1208,6 +1300,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>126</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1221,6 +1314,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1234,6 +1328,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>126</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1247,6 +1342,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>135</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1260,6 +1356,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>132</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1273,6 +1370,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>126</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1286,6 +1384,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>131</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1299,6 +1398,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.65</ae:Speed>
 								<ae:Watts>140</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1312,6 +1412,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>145</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1325,6 +1426,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>126</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1338,6 +1440,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>140</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1351,6 +1454,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>135</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1364,6 +1468,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.65</ae:Speed>
 								<ae:Watts>127</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1377,6 +1482,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.91</ae:Speed>
 								<ae:Watts>171</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1390,6 +1496,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.73</ae:Speed>
 								<ae:Watts>148</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1403,6 +1510,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.79</ae:Speed>
 								<ae:Watts>147</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1416,6 +1524,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.79</ae:Speed>
 								<ae:Watts>160</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1429,6 +1538,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.79</ae:Speed>
 								<ae:Watts>160</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1442,6 +1552,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>136</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1455,6 +1566,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>134</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1468,6 +1580,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>134</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1481,6 +1594,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.65</ae:Speed>
 								<ae:Watts>143</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1494,6 +1608,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>134</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1507,6 +1622,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>137</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1520,6 +1636,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>137</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1533,6 +1650,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>149</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1546,6 +1664,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.65</ae:Speed>
 								<ae:Watts>139</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1559,6 +1678,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.73</ae:Speed>
 								<ae:Watts>130</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1572,6 +1692,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>149</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1585,6 +1706,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.79</ae:Speed>
 								<ae:Watts>156</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1598,6 +1720,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>147</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1611,6 +1734,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>148</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1624,6 +1748,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>139</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1637,6 +1762,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>128</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1650,6 +1776,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>128</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1663,6 +1790,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>122</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1676,6 +1804,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>120</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1689,6 +1818,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1702,6 +1832,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>124</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1715,6 +1846,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>128</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1728,6 +1860,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>125</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1741,6 +1874,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1754,6 +1888,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1767,6 +1902,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>125</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1780,6 +1916,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>128</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1793,6 +1930,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>124</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1806,6 +1944,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>127</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1819,6 +1958,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1832,6 +1972,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>117</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1845,6 +1986,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1858,6 +2000,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1871,6 +2014,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1884,6 +2028,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>129</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1897,6 +2042,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>120</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1910,6 +2056,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>144</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1923,6 +2070,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.76</ae:Speed>
 								<ae:Watts>154</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1936,6 +2084,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>132</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1949,6 +2098,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>132</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1962,6 +2112,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.21</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1975,6 +2126,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>142</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -1988,6 +2140,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>145</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2001,6 +2154,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>135</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2014,6 +2168,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>142</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2027,6 +2182,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>145</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2040,6 +2196,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>147</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2053,6 +2210,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>142</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2066,6 +2224,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.65</ae:Speed>
 								<ae:Watts>150</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2079,6 +2238,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>134</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2092,6 +2252,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>145</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2105,6 +2266,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>138</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2118,6 +2280,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>132</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2131,6 +2294,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>129</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2144,6 +2308,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2157,6 +2322,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>143</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2170,6 +2336,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>144</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2183,6 +2350,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>139</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2196,6 +2364,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>140</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2209,6 +2378,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>148</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2222,6 +2392,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>143</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2235,6 +2406,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>136</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2248,6 +2420,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>148</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2261,6 +2434,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>132</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2274,6 +2448,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>132</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2287,6 +2462,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>134</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2300,6 +2476,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>124</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2313,6 +2490,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>129</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2326,6 +2504,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>124</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2339,6 +2518,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>125</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2352,6 +2532,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>122</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2365,6 +2546,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>124</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2378,6 +2560,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>136</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2391,6 +2574,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.65</ae:Speed>
 								<ae:Watts>133</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2404,6 +2588,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>136</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2417,6 +2602,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>131</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2430,6 +2616,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>138</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2443,6 +2630,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2456,6 +2644,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>127</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2469,6 +2658,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2482,6 +2672,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>113</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2495,6 +2686,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2508,6 +2700,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.65</ae:Speed>
 								<ae:Watts>137</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2521,6 +2714,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>117</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2534,6 +2728,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2547,6 +2742,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.25</ae:Speed>
 								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2560,6 +2756,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.21</ae:Speed>
 								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2573,6 +2770,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2586,6 +2784,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2599,6 +2798,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>115</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2612,6 +2812,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2625,6 +2826,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2638,6 +2840,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>117</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2651,6 +2854,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2664,6 +2868,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2677,6 +2882,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2690,6 +2896,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.27</ae:Speed>
 								<ae:Watts>110</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2703,6 +2910,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2716,6 +2924,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2729,6 +2938,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>113</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2742,6 +2952,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2755,6 +2966,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>120</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2768,6 +2980,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>124</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2781,6 +2994,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>124</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2794,6 +3008,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2807,6 +3022,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>128</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2820,6 +3036,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>138</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2833,6 +3050,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2846,6 +3064,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>120</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2859,6 +3078,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>129</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2872,6 +3092,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>118</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2885,6 +3106,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2898,6 +3120,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.25</ae:Speed>
 								<ae:Watts>110</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2911,6 +3134,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.18</ae:Speed>
 								<ae:Watts>108</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2924,6 +3148,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>118</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2937,6 +3162,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>113</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2950,6 +3176,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.31</ae:Speed>
 								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2963,6 +3190,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.14</ae:Speed>
 								<ae:Watts>106</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2976,6 +3204,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>118</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -2989,6 +3218,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>137</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3002,6 +3232,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>143</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3015,6 +3246,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>126</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3028,6 +3260,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3041,6 +3274,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.27</ae:Speed>
 								<ae:Watts>110</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3054,6 +3288,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.31</ae:Speed>
 								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3067,6 +3302,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.31</ae:Speed>
 								<ae:Watts>115</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3080,6 +3316,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.25</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3093,6 +3330,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.27</ae:Speed>
 								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3106,6 +3344,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.11</ae:Speed>
 								<ae:Watts>108</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3119,6 +3358,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.27</ae:Speed>
 								<ae:Watts>115</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3132,6 +3372,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>120</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3145,6 +3386,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3158,6 +3400,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>117</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3171,6 +3414,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>127</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3184,6 +3428,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>124</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3197,6 +3442,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>118</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3210,6 +3456,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.16</ae:Speed>
 								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3223,6 +3470,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.25</ae:Speed>
 								<ae:Watts>110</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3236,6 +3484,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.21</ae:Speed>
 								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3249,6 +3498,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3262,6 +3512,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>122</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3275,6 +3526,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3288,6 +3540,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3301,6 +3554,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3314,6 +3568,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>130</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3327,6 +3582,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>127</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3340,6 +3596,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3353,6 +3610,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3366,6 +3624,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.27</ae:Speed>
 								<ae:Watts>110</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3379,6 +3638,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3392,6 +3652,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>127</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3405,6 +3666,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>135</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3418,6 +3680,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3431,6 +3694,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>118</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3444,6 +3708,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3457,6 +3722,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3470,6 +3736,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.14</ae:Speed>
 								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3483,6 +3750,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3496,6 +3764,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.27</ae:Speed>
 								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3509,6 +3778,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.21</ae:Speed>
 								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3522,6 +3792,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3535,6 +3806,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.65</ae:Speed>
 								<ae:Watts>135</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3548,6 +3820,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.73</ae:Speed>
 								<ae:Watts>144</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3561,6 +3834,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>140</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3574,6 +3848,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>140</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3587,6 +3862,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>136</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3600,6 +3876,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>139</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3613,6 +3890,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>135</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3626,6 +3904,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.65</ae:Speed>
 								<ae:Watts>147</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3639,6 +3918,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>160</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3652,6 +3932,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>143</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3665,6 +3946,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>142</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3678,6 +3960,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>134</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3691,6 +3974,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>130</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3704,6 +3988,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>139</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3717,6 +4002,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>150</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3730,6 +4016,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>128</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3743,6 +4030,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>124</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3756,6 +4044,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3769,6 +4058,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3782,6 +4072,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>117</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3795,6 +4086,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3808,6 +4100,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.31</ae:Speed>
 								<ae:Watts>115</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3821,6 +4114,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>126</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3834,6 +4128,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.18</ae:Speed>
 								<ae:Watts>107</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3847,6 +4142,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>117</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3860,6 +4156,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.21</ae:Speed>
 								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3873,6 +4170,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>122</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3886,6 +4184,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.27</ae:Speed>
 								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3899,6 +4198,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.27</ae:Speed>
 								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3912,6 +4212,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.23</ae:Speed>
 								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3925,6 +4226,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.23</ae:Speed>
 								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3938,6 +4240,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.31</ae:Speed>
 								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3951,6 +4254,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>122</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3964,6 +4268,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.31</ae:Speed>
 								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3977,6 +4282,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.79</ae:Speed>
 								<ae:Watts>155</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3990,6 +4296,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>140</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4003,6 +4310,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.76</ae:Speed>
 								<ae:Watts>158</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4016,6 +4324,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.73</ae:Speed>
 								<ae:Watts>145</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4029,6 +4338,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>142</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4042,6 +4352,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>140</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4055,6 +4366,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.65</ae:Speed>
 								<ae:Watts>138</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4068,6 +4380,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>135</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4081,6 +4394,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>130</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4094,6 +4408,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.73</ae:Speed>
 								<ae:Watts>145</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4107,6 +4422,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.76</ae:Speed>
 								<ae:Watts>156</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4120,6 +4436,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>142</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4133,6 +4450,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>144</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4146,6 +4464,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>134</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4159,6 +4478,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.76</ae:Speed>
 								<ae:Watts>148</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4172,6 +4492,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.65</ae:Speed>
 								<ae:Watts>140</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4185,6 +4506,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>138</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4198,6 +4520,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>132</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4211,6 +4534,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>142</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4224,6 +4548,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>135</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4237,6 +4562,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>134</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4250,6 +4576,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4263,6 +4590,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>124</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4276,6 +4604,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.73</ae:Speed>
 								<ae:Watts>152</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4289,6 +4618,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>130</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4302,6 +4632,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>152</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4315,6 +4646,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>138</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4328,6 +4660,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.31</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4341,6 +4674,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>127</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4354,6 +4688,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>122</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4367,6 +4702,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>117</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4380,6 +4716,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>134</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4393,6 +4730,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4406,6 +4744,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>118</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4419,6 +4758,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>118</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4432,6 +4772,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.29</ae:Speed>
 								<ae:Watts>117</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4445,6 +4786,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.25</ae:Speed>
 								<ae:Watts>110</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4458,6 +4800,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>115</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4471,6 +4814,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>122</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4484,6 +4828,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>120</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4497,6 +4842,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4510,6 +4856,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.23</ae:Speed>
 								<ae:Watts>110</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4523,6 +4870,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.25</ae:Speed>
 								<ae:Watts>108</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4536,6 +4884,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.18</ae:Speed>
 								<ae:Watts>107</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4549,6 +4898,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.23</ae:Speed>
 								<ae:Watts>110</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4562,6 +4912,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.18</ae:Speed>
 								<ae:Watts>107</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4575,6 +4926,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.23</ae:Speed>
 								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4588,6 +4940,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>115</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4601,6 +4954,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>134</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4614,6 +4968,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4627,6 +4982,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>143</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4640,6 +4996,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.85</ae:Speed>
 								<ae:Watts>169</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4653,6 +5010,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.85</ae:Speed>
 								<ae:Watts>160</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4666,6 +5024,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.85</ae:Speed>
 								<ae:Watts>167</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4679,6 +5038,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.76</ae:Speed>
 								<ae:Watts>140</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4692,6 +5052,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.82</ae:Speed>
 								<ae:Watts>156</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4705,6 +5066,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.73</ae:Speed>
 								<ae:Watts>155</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4718,6 +5080,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>139</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4731,6 +5094,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>137</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4744,6 +5108,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>135</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4757,6 +5122,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4770,6 +5136,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.65</ae:Speed>
 								<ae:Watts>132</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4783,6 +5150,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>155</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4796,6 +5164,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.65</ae:Speed>
 								<ae:Watts>144</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4809,6 +5178,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>149</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4822,6 +5192,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.79</ae:Speed>
 								<ae:Watts>148</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4835,6 +5206,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.76</ae:Speed>
 								<ae:Watts>152</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4848,6 +5220,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.76</ae:Speed>
 								<ae:Watts>147</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4861,6 +5234,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.79</ae:Speed>
 								<ae:Watts>154</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4874,6 +5248,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.76</ae:Speed>
 								<ae:Watts>155</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4887,6 +5262,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>145</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4900,6 +5276,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4913,6 +5290,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>127</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4926,6 +5304,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4939,6 +5318,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>118</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4952,6 +5332,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>118</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4965,6 +5346,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4978,6 +5360,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>118</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -4991,6 +5374,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>126</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5004,6 +5388,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.31</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5017,6 +5402,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>122</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5030,6 +5416,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5043,6 +5430,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5056,6 +5444,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5069,6 +5458,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5082,6 +5472,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.76</ae:Speed>
 								<ae:Watts>142</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5095,6 +5486,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>147</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5108,6 +5500,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>134</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5121,6 +5514,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.76</ae:Speed>
 								<ae:Watts>147</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5134,6 +5528,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.65</ae:Speed>
 								<ae:Watts>148</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5147,6 +5542,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>132</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5160,6 +5556,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.65</ae:Speed>
 								<ae:Watts>136</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5173,6 +5570,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>130</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5186,6 +5584,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>126</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5199,6 +5598,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>140</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5212,6 +5612,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>131</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5225,6 +5626,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>126</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5238,6 +5640,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5251,6 +5654,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5264,6 +5668,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>134</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5277,6 +5682,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5290,6 +5696,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5303,6 +5710,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>126</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5316,6 +5724,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>128</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5329,6 +5738,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5342,6 +5752,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.31</ae:Speed>
 								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5355,6 +5766,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.21</ae:Speed>
 								<ae:Watts>113</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5368,6 +5780,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.29</ae:Speed>
 								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5381,6 +5794,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.23</ae:Speed>
 								<ae:Watts>110</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5394,6 +5808,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.27</ae:Speed>
 								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5407,6 +5822,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.27</ae:Speed>
 								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5420,6 +5836,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.23</ae:Speed>
 								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5433,6 +5850,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.18</ae:Speed>
 								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5446,6 +5864,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.12</ae:Speed>
 								<ae:Watts>107</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5459,6 +5878,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.16</ae:Speed>
 								<ae:Watts>107</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5472,6 +5892,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>113</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5485,6 +5906,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.21</ae:Speed>
 								<ae:Watts>110</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5498,6 +5920,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.16</ae:Speed>
 								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5511,6 +5934,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.14</ae:Speed>
 								<ae:Watts>107</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5524,6 +5948,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.11</ae:Speed>
 								<ae:Watts>106</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5537,6 +5962,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.16</ae:Speed>
 								<ae:Watts>108</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5550,6 +5976,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.07</ae:Speed>
 								<ae:Watts>106</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5563,6 +5990,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5576,6 +6004,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>115</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5589,6 +6018,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.21</ae:Speed>
 								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5602,6 +6032,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.23</ae:Speed>
 								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5615,6 +6046,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5628,6 +6060,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>115</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5641,6 +6074,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.31</ae:Speed>
 								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5654,6 +6088,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.18</ae:Speed>
 								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5667,6 +6102,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.31</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5680,6 +6116,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.21</ae:Speed>
 								<ae:Watts>108</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5693,6 +6130,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.31</ae:Speed>
 								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5706,6 +6144,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5719,6 +6158,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>113</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5732,6 +6172,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>118</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5745,6 +6186,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>120</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5758,6 +6200,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>125</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5771,6 +6214,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5784,6 +6228,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>117</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5797,6 +6242,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>134</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5810,6 +6256,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>144</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5823,6 +6270,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.73</ae:Speed>
 								<ae:Watts>152</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5836,6 +6284,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>150</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5849,6 +6298,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>134</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5862,6 +6312,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5875,6 +6326,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5888,6 +6340,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5901,6 +6354,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>129</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5914,6 +6368,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>126</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5927,6 +6382,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5940,6 +6396,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>137</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5953,6 +6410,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>127</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5966,6 +6424,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5979,6 +6438,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -5992,6 +6452,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.31</ae:Speed>
 								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6005,6 +6466,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6018,6 +6480,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6031,6 +6494,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6044,6 +6508,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6057,6 +6522,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>120</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6070,6 +6536,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>118</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6083,6 +6550,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6096,6 +6564,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>122</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6109,6 +6578,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>124</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6122,6 +6592,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>132</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6135,6 +6606,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>120</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6148,6 +6620,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>130</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6161,6 +6634,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6174,6 +6648,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>134</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6187,6 +6662,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>128</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6200,6 +6676,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>125</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6213,6 +6690,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6226,6 +6704,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>118</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6239,6 +6718,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>134</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6252,6 +6732,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.29</ae:Speed>
 								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6265,6 +6746,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.25</ae:Speed>
 								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6278,6 +6760,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6291,6 +6774,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.21</ae:Speed>
 								<ae:Watts>108</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6304,6 +6788,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.23</ae:Speed>
 								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6317,6 +6802,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>120</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6330,6 +6816,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.25</ae:Speed>
 								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6343,6 +6830,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.23</ae:Speed>
 								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6356,6 +6844,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.12</ae:Speed>
 								<ae:Watts>107</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6369,6 +6858,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.16</ae:Speed>
 								<ae:Watts>107</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6382,6 +6872,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.29</ae:Speed>
 								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6395,6 +6886,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.23</ae:Speed>
 								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6408,6 +6900,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.23</ae:Speed>
 								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6421,6 +6914,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.27</ae:Speed>
 								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6434,6 +6928,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.25</ae:Speed>
 								<ae:Watts>108</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6447,6 +6942,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>124</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6460,6 +6956,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.14</ae:Speed>
 								<ae:Watts>108</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6473,6 +6970,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.29</ae:Speed>
 								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6486,6 +6984,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6499,6 +6998,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>128</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6512,6 +7012,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6525,6 +7026,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6538,6 +7040,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.79</ae:Speed>
 								<ae:Watts>144</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6551,6 +7054,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>130</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6564,6 +7068,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>132</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6577,6 +7082,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>120</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6590,6 +7096,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>124</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6603,6 +7110,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>115</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6616,6 +7124,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6629,6 +7138,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>118</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6642,6 +7152,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.27</ae:Speed>
 								<ae:Watts>113</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6655,6 +7166,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6668,6 +7180,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>118</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6681,6 +7194,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6694,6 +7208,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6707,6 +7222,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6720,6 +7236,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>143</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6733,6 +7250,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>117</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6746,6 +7264,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.21</ae:Speed>
 								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6759,6 +7278,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.27</ae:Speed>
 								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6772,6 +7292,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6785,6 +7306,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6798,6 +7320,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6811,6 +7334,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.31</ae:Speed>
 								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6824,6 +7348,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.29</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6837,6 +7362,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.31</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6850,6 +7376,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>115</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6863,6 +7390,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>134</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6876,6 +7404,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6889,6 +7418,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>130</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6902,6 +7432,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.65</ae:Speed>
 								<ae:Watts>137</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6915,6 +7446,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>127</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6928,6 +7460,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>125</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6941,6 +7474,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>138</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6954,6 +7488,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6967,6 +7502,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>140</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6980,6 +7516,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>134</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6993,6 +7530,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>134</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7006,6 +7544,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>129</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7019,6 +7558,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>131</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7032,6 +7572,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7045,6 +7586,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7058,6 +7600,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.29</ae:Speed>
 								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7071,6 +7614,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7084,6 +7628,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>124</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7097,6 +7642,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7110,6 +7656,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7123,6 +7670,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>124</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7136,6 +7684,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7149,6 +7698,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.29</ae:Speed>
 								<ae:Watts>110</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7162,6 +7712,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7175,6 +7726,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7188,6 +7740,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>115</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7201,6 +7754,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.31</ae:Speed>
 								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7214,6 +7768,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.29</ae:Speed>
 								<ae:Watts>115</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7227,6 +7782,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.16</ae:Speed>
 								<ae:Watts>108</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7240,6 +7796,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.23</ae:Speed>
 								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7253,6 +7810,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.25</ae:Speed>
 								<ae:Watts>110</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7266,6 +7824,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.23</ae:Speed>
 								<ae:Watts>108</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7279,6 +7838,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>113</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7292,6 +7852,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7305,6 +7866,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.23</ae:Speed>
 								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7318,6 +7880,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.16</ae:Speed>
 								<ae:Watts>108</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7331,6 +7894,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.21</ae:Speed>
 								<ae:Watts>110</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7344,6 +7908,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.14</ae:Speed>
 								<ae:Watts>108</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7357,6 +7922,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.27</ae:Speed>
 								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7370,6 +7936,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.25</ae:Speed>
 								<ae:Watts>110</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7383,6 +7950,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7396,6 +7964,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>115</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7409,6 +7978,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.23</ae:Speed>
 								<ae:Watts>110</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7422,6 +7992,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7435,6 +8006,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7448,6 +8020,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>113</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7461,6 +8034,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>113</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7474,6 +8048,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7487,6 +8062,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>126</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7500,6 +8076,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>136</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7513,6 +8090,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>142</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7526,6 +8104,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>126</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7539,6 +8118,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>132</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7552,6 +8132,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>133</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7565,6 +8146,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.73</ae:Speed>
 								<ae:Watts>154</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7578,6 +8160,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.91</ae:Speed>
 								<ae:Watts>171</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7591,6 +8174,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.85</ae:Speed>
 								<ae:Watts>143</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7604,6 +8188,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.73</ae:Speed>
 								<ae:Watts>142</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7617,6 +8202,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.65</ae:Speed>
 								<ae:Watts>140</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7630,6 +8216,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7643,6 +8230,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7656,6 +8244,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>134</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7669,6 +8258,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7682,6 +8272,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.73</ae:Speed>
 								<ae:Watts>154</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7695,6 +8286,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>149</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7708,6 +8300,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>139</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7721,6 +8314,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>122</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7734,6 +8328,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>145</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7747,6 +8342,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>140</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7760,6 +8356,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>128</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7773,6 +8370,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>140</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7786,6 +8384,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.65</ae:Speed>
 								<ae:Watts>144</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7799,6 +8398,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>131</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7812,6 +8412,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>120</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7825,6 +8426,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>135</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7838,6 +8440,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>120</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7851,6 +8454,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7864,6 +8468,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>115</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7877,6 +8482,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7890,6 +8496,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.29</ae:Speed>
 								<ae:Watts>115</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7903,6 +8510,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.18</ae:Speed>
 								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7916,6 +8524,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.27</ae:Speed>
 								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7929,6 +8538,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>113</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7942,6 +8552,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.25</ae:Speed>
 								<ae:Watts>110</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7955,6 +8566,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.18</ae:Speed>
 								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7968,6 +8580,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>113</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7981,6 +8594,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.29</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7994,6 +8608,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.31</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8007,6 +8622,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.29</ae:Speed>
 								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8020,6 +8636,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.27</ae:Speed>
 								<ae:Watts>115</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8033,6 +8650,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.12</ae:Speed>
 								<ae:Watts>108</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8046,6 +8664,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.18</ae:Speed>
 								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8059,6 +8678,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.23</ae:Speed>
 								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8072,6 +8692,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.21</ae:Speed>
 								<ae:Watts>110</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8085,6 +8706,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.18</ae:Speed>
 								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8098,6 +8720,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.25</ae:Speed>
 								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8111,6 +8734,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.29</ae:Speed>
 								<ae:Watts>115</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8124,6 +8748,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.12</ae:Speed>
 								<ae:Watts>108</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8137,6 +8762,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8150,6 +8776,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.23</ae:Speed>
 								<ae:Watts>110</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8163,6 +8790,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.21</ae:Speed>
 								<ae:Watts>110</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8176,6 +8804,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.29</ae:Speed>
 								<ae:Watts>113</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8189,6 +8818,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.31</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8202,6 +8832,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8215,6 +8846,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>117</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8228,6 +8860,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>129</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8241,6 +8874,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>137</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8254,6 +8888,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.82</ae:Speed>
 								<ae:Watts>144</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8267,6 +8902,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.73</ae:Speed>
 								<ae:Watts>152</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8280,6 +8916,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>144</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8293,6 +8930,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.73</ae:Speed>
 								<ae:Watts>158</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8306,6 +8944,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>144</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8319,6 +8958,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>133</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8332,6 +8972,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>131</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8345,6 +8986,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>126</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8358,6 +9000,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>128</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8371,6 +9014,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>125</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8384,6 +9028,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>128</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8397,6 +9042,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>134</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8410,6 +9056,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>131</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8423,6 +9070,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>120</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8436,6 +9084,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>125</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8449,6 +9098,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>115</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8462,6 +9112,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.31</ae:Speed>
 								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8475,6 +9126,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8488,6 +9140,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.23</ae:Speed>
 								<ae:Watts>110</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8501,6 +9154,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>125</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8514,6 +9168,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>117</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8527,6 +9182,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>128</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8540,6 +9196,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8553,6 +9210,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>140</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8566,6 +9224,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>122</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8579,6 +9238,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>124</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8592,6 +9252,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8605,6 +9266,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8618,6 +9280,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.16</ae:Speed>
 								<ae:Watts>110</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8631,6 +9294,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8644,6 +9308,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8657,6 +9322,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8670,6 +9336,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8683,6 +9350,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.25</ae:Speed>
 								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8696,6 +9364,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.27</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8709,6 +9378,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8722,6 +9392,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>128</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8735,6 +9406,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>126</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8748,6 +9420,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>113</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8761,6 +9434,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8774,6 +9448,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>118</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8787,6 +9462,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8800,6 +9476,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>115</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8813,6 +9490,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8826,6 +9504,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>118</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8839,6 +9518,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8852,6 +9532,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>129</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8865,6 +9546,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.21</ae:Speed>
 								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8878,6 +9560,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.16</ae:Speed>
 								<ae:Watts>110</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8891,6 +9574,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.29</ae:Speed>
 								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8904,6 +9588,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>122</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8917,6 +9602,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.11</ae:Speed>
 								<ae:Watts>108</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8930,6 +9616,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.14</ae:Speed>
 								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8943,6 +9630,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.23</ae:Speed>
 								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8956,6 +9644,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.27</ae:Speed>
 								<ae:Watts>115</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8969,6 +9658,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.27</ae:Speed>
 								<ae:Watts>113</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8982,6 +9672,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8995,6 +9686,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.27</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9008,6 +9700,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>118</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9021,6 +9714,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9034,6 +9728,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9047,6 +9742,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>127</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9060,6 +9756,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>136</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9073,6 +9770,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>127</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9086,6 +9784,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9099,6 +9798,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>126</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9112,6 +9812,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9125,6 +9826,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.73</ae:Speed>
 								<ae:Watts>132</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9138,6 +9840,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>137</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9151,6 +9854,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>142</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9164,6 +9868,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.85</ae:Speed>
 								<ae:Watts>155</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9177,6 +9882,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.73</ae:Speed>
 								<ae:Watts>154</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9190,6 +9896,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.76</ae:Speed>
 								<ae:Watts>139</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9203,6 +9910,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>149</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9216,6 +9924,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9229,6 +9938,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>124</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9242,6 +9952,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.73</ae:Speed>
 								<ae:Watts>142</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9255,6 +9966,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.79</ae:Speed>
 								<ae:Watts>147</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9268,6 +9980,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>150</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9281,6 +9994,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9294,6 +10008,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>118</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9307,6 +10022,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9320,6 +10036,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>117</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9333,6 +10050,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9346,6 +10064,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>117</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9359,6 +10078,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.25</ae:Speed>
 								<ae:Watts>110</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9372,6 +10092,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.21</ae:Speed>
 								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9385,6 +10106,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9398,6 +10120,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>113</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9411,6 +10134,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9424,6 +10148,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.23</ae:Speed>
 								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9437,6 +10162,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.14</ae:Speed>
 								<ae:Watts>108</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9450,6 +10176,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.14</ae:Speed>
 								<ae:Watts>108</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9463,6 +10190,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9476,6 +10204,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.31</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9489,6 +10218,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>117</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9502,6 +10232,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.29</ae:Speed>
 								<ae:Watts>113</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9515,6 +10246,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9528,6 +10260,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>129</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9541,6 +10274,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.65</ae:Speed>
 								<ae:Watts>140</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9554,6 +10288,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>144</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9567,6 +10302,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.73</ae:Speed>
 								<ae:Watts>142</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9580,6 +10316,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>147</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9593,6 +10330,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>140</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9606,6 +10344,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>130</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9619,6 +10358,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>133</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9632,6 +10372,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>135</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9645,6 +10386,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>130</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9658,6 +10400,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>127</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9671,6 +10414,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>126</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9684,6 +10428,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>115</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9697,6 +10442,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>117</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9710,6 +10456,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>120</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9723,6 +10470,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.82</ae:Speed>
 								<ae:Watts>160</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9736,6 +10484,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.79</ae:Speed>
 								<ae:Watts>165</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9749,6 +10498,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.73</ae:Speed>
 								<ae:Watts>144</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9762,6 +10512,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.79</ae:Speed>
 								<ae:Watts>150</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9775,6 +10526,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>145</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9788,6 +10540,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.79</ae:Speed>
 								<ae:Watts>152</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9801,6 +10554,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>147</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9814,6 +10568,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>140</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9827,6 +10582,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>130</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9840,6 +10596,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9853,6 +10610,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>117</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9866,6 +10624,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>132</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9879,6 +10638,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>144</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9892,6 +10652,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.76</ae:Speed>
 								<ae:Watts>148</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9905,6 +10666,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>142</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9918,6 +10680,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.76</ae:Speed>
 								<ae:Watts>156</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9931,6 +10694,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.79</ae:Speed>
 								<ae:Watts>156</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9944,6 +10708,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.73</ae:Speed>
 								<ae:Watts>147</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9957,6 +10722,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>139</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9970,6 +10736,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.73</ae:Speed>
 								<ae:Watts>152</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9983,6 +10750,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.76</ae:Speed>
 								<ae:Watts>155</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9996,6 +10764,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>129</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10009,6 +10778,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.88</ae:Speed>
 								<ae:Watts>155</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10022,6 +10792,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>150</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10035,6 +10806,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>133</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10048,6 +10820,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>142</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10061,6 +10834,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>131</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10074,6 +10848,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10087,6 +10862,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>125</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10100,6 +10876,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.31</ae:Speed>
 								<ae:Watts>118</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10113,6 +10890,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.29</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10126,6 +10904,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10139,6 +10918,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.29</ae:Speed>
 								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10152,6 +10932,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10165,6 +10946,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10178,6 +10960,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>118</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10191,6 +10974,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>115</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10204,6 +10988,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>113</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10217,6 +11002,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10230,6 +11016,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>120</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10243,6 +11030,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10256,6 +11044,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>117</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10269,6 +11058,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10282,6 +11072,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>115</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10295,6 +11086,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10308,6 +11100,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10321,6 +11114,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10334,6 +11128,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10347,6 +11142,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10360,6 +11156,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>122</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10373,6 +11170,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>127</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10386,6 +11184,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.60</ae:Speed>
 								<ae:Watts>132</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10399,6 +11198,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>128</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10412,6 +11212,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10425,6 +11226,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>113</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10438,6 +11240,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>120</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10451,6 +11254,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>118</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10464,6 +11268,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10477,6 +11282,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10490,6 +11296,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.29</ae:Speed>
 								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10503,6 +11310,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>118</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10516,6 +11324,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10529,6 +11338,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>126</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10542,6 +11352,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.65</ae:Speed>
 								<ae:Watts>138</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10555,6 +11366,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>133</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10568,6 +11380,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>122</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10581,6 +11394,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>125</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10594,6 +11408,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10607,6 +11422,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.79</ae:Speed>
 								<ae:Watts>152</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10620,6 +11436,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.76</ae:Speed>
 								<ae:Watts>150</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10633,6 +11450,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.82</ae:Speed>
 								<ae:Watts>154</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10646,6 +11464,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.76</ae:Speed>
 								<ae:Watts>158</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10659,6 +11478,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.76</ae:Speed>
 								<ae:Watts>149</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10672,6 +11492,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>132</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10685,6 +11506,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.76</ae:Speed>
 								<ae:Watts>162</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10698,6 +11520,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.70</ae:Speed>
 								<ae:Watts>143</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10711,6 +11534,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>142</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10724,6 +11548,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>125</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10737,6 +11562,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>124</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10750,6 +11576,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>127</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10763,6 +11590,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10776,6 +11604,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>127</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10789,6 +11618,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>117</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10802,6 +11632,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10815,6 +11646,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>120</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10828,6 +11660,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>128</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10841,6 +11674,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.29</ae:Speed>
 								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10854,6 +11688,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10867,6 +11702,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>120</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10880,6 +11716,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10893,6 +11730,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>130</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10906,6 +11744,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.79</ae:Speed>
 								<ae:Watts>155</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10919,6 +11758,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>140</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10932,6 +11772,7 @@
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
+								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>140</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -10939,6 +11780,7 @@
 				</Track>
 				<Extensions>
 					<ae:LX>
+						<ae:AvgSpeed>3.48</ae:AvgSpeed>
 						<ae:MaxWatts>171</ae:MaxWatts>
 					</ae:LX>
 				</Extensions>

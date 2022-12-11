@@ -3,7 +3,8 @@ import unittest
 from monitor import Capture, Export
 from datetime import datetime
 
-class TestExport(unittest.TestCase):
+
+class TestParse(unittest.TestCase):
 
     def test_parse(self):
         capture = Capture(1670609153225, "A8001340038410210033165086504")
@@ -17,6 +18,9 @@ class TestExport(unittest.TestCase):
         self.assertEqual(165, capture.watt)
         self.assertEqual(865, capture.caloriesPerHour)
         self.assertEqual(4, capture.level)
+
+
+class TestExport(unittest.TestCase):
 
     def test_export_tostring(self):
         export = Export()
@@ -35,6 +39,9 @@ class TestExport(unittest.TestCase):
         with open("samples/1670609153225.tcx", 'wb') as f:
             export.write(f)
 
+
+class TestExportEnhanced(unittest.TestCase):
+
     def test_export_enhance(self):
         export = Export()
         export.load_heartratebpm("samples/1670609153225_watch.tcx")
@@ -44,6 +51,7 @@ class TestExport(unittest.TestCase):
                 export.add_trackpoint(Capture(int(milliseconds), data))
         with open("samples/1670609153225_enhanced.tcx", 'wb') as f:
             export.write(f)
+
 
 if __name__ == '__main__':
     unittest.main()

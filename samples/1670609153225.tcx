@@ -8,12 +8,6 @@
 				<DistanceMeters>6300</DistanceMeters>
 				<MaximumSpeed>3.97</MaximumSpeed>
 				<Calories>367</Calories>
-				<AverageHeartRateBpm>
-					<Value>117</Value>
-				</AverageHeartRateBpm>
-				<MaximumHeartRateBpm>
-					<Value>126</Value>
-				</MaximumHeartRateBpm>
 				<Intensity>Active</Intensity>
 				<TriggerMethod>Manual</TriggerMethod>
 				<Track>

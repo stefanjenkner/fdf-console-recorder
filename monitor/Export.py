@@ -140,9 +140,13 @@ class Export(object):
         self._calories.text = str(round(mean * total_time_hours))
 
     def _update_heart_rate_stats(self):
+        if len(self._heart_rates) == 0:
+            self._lap.remove(self._avg_heart_rate_value)
+            self._lap.remove(self._max_heart_rate_value)
+            return
         maximum, mean = Export._get_stats(self._heart_rates)
-        self._avg_heart_rate_value.text = str(round(mean))
-        self._max_heart_rate_value.text = str(maximum)
+        self._avg_heart_rate_value.find("Value").text = str(round(mean))
+        self._max_heart_rate_value.find("Value").text = str(maximum)
 
     def _update_watts_stats(self):
         maximum, mean = Export._get_stats(self._watts)
@@ -191,4 +195,4 @@ class Export(object):
         element = ET.SubElement(parent, tag)
         value_element = ET.SubElement(element, "Value")
         value_element.text = value
-        return value_element
+        return element

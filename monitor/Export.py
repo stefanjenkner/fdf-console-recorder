@@ -23,7 +23,7 @@ class Export(object):
     #_MaximumHeartRateBpmValue = None
     #_AverageHeartRateBpmValue = None
     _track = None
-    _heartrates = []
+    _heartrates = {}
     _caloriesPerHour = {}
 
     def __init__(self):
@@ -112,19 +112,12 @@ class Export(object):
         self._isInitialized = True
 
     def _update_calories(self):
-        calphs = []
-        weights = []
-        previous_second = 0
+        calphs = {}
+        elapsed_seconds = 0
         for second, calph in self._caloriesPerHour.items():
-            for_seconds = second - previous_second
-            if calph in calphs:
-                i = calphs.index(calph)
-                weights[i] = weights[i] + for_seconds
-            else:
-                calphs.append(calph)
-                weights.append(for_seconds)
-            previous_second = second
-        calph_mean = harmonic_mean(calphs, weights=weights)
+            calphs[calph] = calphs.get(calph, 0) + second - elapsed_seconds
+            elapsed_seconds = second
+        calph_mean = harmonic_mean(calphs.keys(), weights=calphs.values())
         total_time_hours = int(self._totalTimeSeconds.text)/3600
         self._calories.text = str(round(calph_mean * total_time_hours))
 

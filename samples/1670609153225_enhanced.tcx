@@ -6,7 +6,7 @@
 			<Lap StartTime="2022-12-09T18:05:53Z">
 				<TotalTimeSeconds>1812</TotalTimeSeconds>
 				<DistanceMeters>6300</DistanceMeters>
-				<Calories>177</Calories>
+				<Calories>367</Calories>
 				<Intensity>Active</Intensity>
 				<TriggerMethod>Manual</TriggerMethod>
 				<Track>

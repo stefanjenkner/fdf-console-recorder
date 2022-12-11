@@ -1,6 +1,7 @@
 import datetime
 import xml.etree.ElementTree as ET
 from io import BytesIO
+from statistics import harmonic_mean
 
 from monitor import Capture
 
@@ -22,8 +23,8 @@ class Export(object):
     #_MaximumHeartRateBpmValue = None
     #_AverageHeartRateBpmValue = None
     _track = None
-    _extensions = None
     _heartrates = []
+    _caloriesPerHour = {}
 
     def __init__(self):
         builder = ET.TreeBuilder()
@@ -42,9 +43,9 @@ class Export(object):
         self._triggerMethod = self._add_empty(builder, "TriggerMethod")
         self._track = builder.start("Track", {})
         builder.end("Track")
-        self._extensions = builder.start("Extensions", {})
+        extensions = builder.start("Extensions", {})
         self._root = builder.close()
-        lx = ET.SubElement(self._extensions, "{" + AE_NS + "}LX")
+        lx = ET.SubElement(extensions, "{" + AE_NS + "}LX")
         self._maxWatts = ET.SubElement(lx, "{" + AE_NS + "}MaxWatts")
 
     def load_heartratebpm(self, filename: str):
@@ -66,13 +67,11 @@ class Export(object):
             self._init(capture)
 
         total_time_seconds = capture.totalMinutes*60 + capture.totalSeconds
-        total_time_hours = total_time_seconds/3600
         iso_time = self._get_formated_time(capture)
 
         self._totalTimeSeconds.text = str(total_time_seconds)
         self._distanceMeters.text = str(capture.distance)
-        # fix
-        self._calories.text = str(round(capture.caloriesPerHour*total_time_hours))
+        self._caloriesPerHour[total_time_seconds] = capture.caloriesPerHour
 
         trackpoint = ET.SubElement(self._track, "Trackpoint")
 
@@ -101,18 +100,37 @@ class Export(object):
         else:
             self._maxWatts.text = str(max(int(self._maxWatts.text), capture.watt))
 
-    def _init(self, capture: Capture):
+    def _init(self, first_capture: Capture):
         self._intensity.text = "Active"
         self._triggerMethod.text = "Manual"
-        self._id.text = self._get_formated_time(capture)
-        self._lap.attrib["StartTime"] = self._get_formated_time(capture)
+        self._id.text = self._get_formated_time(first_capture)
+        self._lap.attrib["StartTime"] = self._get_formated_time(first_capture)
         self._isInitialized = True
 
+    def _update_calories(self):
+        calphs = []
+        weights = []
+        previous_second = 0
+        for second, calph in self._caloriesPerHour.items():
+            for_seconds = second - previous_second
+            if calph in calphs:
+                i = calphs.index(calph)
+                weights[i] = weights[i] + for_seconds
+            else:
+                calphs.append(calph)
+                weights.append(for_seconds)
+            previous_second = second
+        calph_mean = harmonic_mean(calphs, weights=weights)
+        total_time_hours = int(self._totalTimeSeconds.text)/3600
+        self._calories.text = str(round(calph_mean * total_time_hours))
+
     def write(self, f):
+        self._update_calories()
         ET.indent(self._root, space="\t", level=0)
         ET.ElementTree(self._root).write(f, encoding='utf-8', method="xml",xml_declaration=True)
 
     def tostring(self):
+        self._update_calories()
         result = BytesIO()
         ET.indent(self._root, space="\t", level=0)
         ET.ElementTree(self._root).write(result, encoding='utf-8', method="xml",xml_declaration=True)

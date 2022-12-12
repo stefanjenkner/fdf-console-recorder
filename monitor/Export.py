@@ -37,27 +37,24 @@ class Export(object):
     _watts = {}
 
     def __init__(self):
-        builder = ET.TreeBuilder()
         ET.register_namespace("", TCD_NS)
         ET.register_namespace("xsi", XSI_NS)
         ET.register_namespace("ae", AE_NS)
-        builder.start("{" + TCD_NS + "}TrainingCenterDatabase", {})
-        builder.start("Activities", {})
-        builder.start("Activity", {"Sport": "Other"})
-        self._id = self._add_empty(builder, "Id")
-        self._lap = builder.start("Lap", {})
-        self._totalTimeSeconds = self._add_empty(builder, "TotalTimeSeconds")
-        self._distanceMeters = self._add_empty(builder, "DistanceMeters")
-        self._maximum_speed = self._add_empty(builder, "MaximumSpeed")
-        self._calories = self._add_empty(builder, "Calories")
+        self._root = ET.Element("{" + TCD_NS + "}TrainingCenterDatabase", {})
+        activities = ET.SubElement(self._root, "Activities")
+        activity = ET.SubElement(activities, "Activity", {"Sport": "Other"})
+        self._id = ET.SubElement(activity, "Id")
+        self._lap = ET.SubElement(activity, "Lap")
+        self._totalTimeSeconds = ET.SubElement(self._lap, "TotalTimeSeconds")
+        self._distanceMeters = ET.SubElement(self._lap, "DistanceMeters")
+        self._maximum_speed = ET.SubElement(self._lap, "MaximumSpeed")
+        self._calories = ET.SubElement(self._lap, "Calories")
         self._avg_heart_rate_value = Export._add_value_element(self._lap, "AverageHeartRateBpm")
         self._max_heart_rate_value = Export._add_value_element(self._lap, "MaximumHeartRateBpm")
-        self._intensity = self._add_empty(builder, "Intensity")
-        self._triggerMethod = self._add_empty(builder, "TriggerMethod")
-        self._track = builder.start("Track", {})
-        builder.end("Track")
-        extensions = builder.start("Extensions", {})
-        self._root = builder.close()
+        self._intensity = ET.SubElement(self._lap, "Intensity")
+        self._triggerMethod = ET.SubElement(self._lap, "TriggerMethod")
+        self._track = ET.SubElement(self._lap, "Track", {})
+        extensions = ET.SubElement(self._lap, "Extensions", {})
         lx = ET.SubElement(extensions, "{" + AE_NS + "}LX")
         self._avg_speed = ET.SubElement(lx, "{" + AE_NS + "}AvgSpeed")
         self._avg_watts = ET.SubElement(lx, "{" + AE_NS + "}AvgWatts")
@@ -199,11 +196,6 @@ class Export(object):
     @staticmethod
     def _get_formatted_time(time: datetime):
         return time.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-
-    @staticmethod
-    def _add_empty(builder, tag):
-        builder.start(tag, {})
-        return builder.end(tag)
 
     @staticmethod
     def _add_value_element(parent, tag, value=''):

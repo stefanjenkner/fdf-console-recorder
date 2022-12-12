@@ -1,9 +1,10 @@
 import datetime
 import xml.etree.ElementTree as ET
+from collections import OrderedDict
 from io import BytesIO
 from statistics import harmonic_mean
-from collections import OrderedDict
 
+import fitdecode as fitdecode
 from monitor import Capture
 
 XSI_NS = "http://www.w3.org/2001/XMLSchema-instance"
@@ -12,8 +13,7 @@ AE_NS = "http://www.garmin.com/xmlschemas/ActivityExtension/v2"
 
 
 class Export(object):
-
-    _isInitialized : bool = False
+    _isInitialized: bool = False
     _root = None
     _id = None
     _lap = None
@@ -63,13 +63,23 @@ class Export(object):
         self._avg_watts = ET.SubElement(lx, "{" + AE_NS + "}AvgWatts")
         self._max_watts = ET.SubElement(lx, "{" + AE_NS + "}MaxWatts")
 
-    def load_heartratebpm(self, filename: str):
+    def load_heart_rate_from_tcx(self, filename: str):
         self._external_heart_rates = {}
         tree = ET.parse(filename)
         for trackpoint in tree.findall(".//{" + TCD_NS + "}Trackpoint[{" + TCD_NS + "}HeartRateBpm]"):
             iso_time = trackpoint.find("{" + TCD_NS + "}Time").text
-            heartratebpm = trackpoint.find("{" + TCD_NS + "}HeartRateBpm/{" + TCD_NS + "}Value").text
-            self._external_heart_rates[iso_time] = heartratebpm
+            bpm = trackpoint.find("{" + TCD_NS + "}HeartRateBpm/{" + TCD_NS + "}Value").text
+            self._external_heart_rates[iso_time] = int(bpm)
+
+    def load_heart_rate_from_fit(self, filename: str):
+        self._external_heart_rates = {}
+        with fitdecode.FitReader(filename) as fit:
+            for frame in fit:
+                if frame.frame_type == fitdecode.FIT_FRAME_DATA and frame.name == "record":
+                    timestamp = list(filter(lambda x: x.name == 'timestamp', frame.fields))[0].value
+                    heart_rate = list(filter(lambda x: x.name == 'heart_rate', frame.fields))[0].value
+                    iso_time = timestamp.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+                    self._external_heart_rates[iso_time] = int(heart_rate)
 
     def add_trackpoint(self, capture: Capture):
         """
@@ -80,7 +90,7 @@ class Export(object):
         if not self._isInitialized:
             self._init(capture)
 
-        total_time_seconds = capture.totalMinutes*60 + capture.totalSeconds
+        total_time_seconds = capture.totalMinutes * 60 + capture.totalSeconds
         iso_time = self._get_formatted_time(capture.time)
 
         self._totalTimeSeconds.text = str(total_time_seconds)
@@ -100,8 +110,8 @@ class Export(object):
 
         if iso_time in self._external_heart_rates:
             bpm = self._external_heart_rates[iso_time]
-            Export._add_value_element(trackpoint, "HeartRateBpm", bpm)
-            self._heart_rates[total_time_seconds] = int(bpm)
+            Export._add_value_element(trackpoint, "HeartRateBpm", str(bpm))
+            self._heart_rates[total_time_seconds] = bpm
         elif len(self._external_heart_rates) > 0:
             print("No heart rate for: " + iso_time)
 
@@ -109,7 +119,7 @@ class Export(object):
         tpx = ET.SubElement(extensions, "{" + AE_NS + "}TPX")
 
         try:
-            meters_per_second = 500 / (capture.minutesTo500m*60 + capture.secondsTo500m)
+            meters_per_second = 500 / (capture.minutesTo500m * 60 + capture.secondsTo500m)
         except ZeroDivisionError:
             meters_per_second = 0.0
         self._speeds[total_time_seconds] = round(meters_per_second, 2)
@@ -164,13 +174,13 @@ class Export(object):
     def write(self, f):
         self._post_processing()
         ET.indent(self._root, space="\t", level=0)
-        ET.ElementTree(self._root).write(f, encoding='utf-8', method="xml",xml_declaration=True)
+        ET.ElementTree(self._root).write(f, encoding='utf-8', method="xml", xml_declaration=True)
 
     def tostring(self):
         self._post_processing()
         result = BytesIO()
         ET.indent(self._root, space="\t", level=0)
-        ET.ElementTree(self._root).write(result, encoding='utf-8', method="xml",xml_declaration=True)
+        ET.ElementTree(self._root).write(result, encoding='utf-8', method="xml", xml_declaration=True)
         return result.getvalue().decode()
 
     @staticmethod

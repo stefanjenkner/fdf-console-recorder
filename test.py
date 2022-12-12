@@ -43,12 +43,23 @@ class TestExport2(unittest.TestCase):
         with open("samples/1670790032608.tcx", 'wb') as f:
             export.write(f)
 
+class TestExportEnhancedFit(unittest.TestCase):
+
+    def test_export_write(self):
+        export = Export()
+        export.load_heart_rate_from_fit("samples/1670790032608_watch.fit")
+        with open("samples/1670790032608.txt", encoding='utf-8') as f:
+            for line in f.readlines():
+                (milliseconds, data) = line.split(" ")
+                export.add_trackpoint(Capture(int(milliseconds), data))
+        with open("samples/1670790032608_enhanced.tcx", 'wb') as f:
+            export.write(f)
 
 class TestExportEnhanced(unittest.TestCase):
 
     def test_export_enhance(self):
         export = Export()
-        export.load_heartratebpm("samples/1670609153225_watch.tcx")
+        export.load_heart_rate_from_tcx("samples/1670609153225_watch.tcx")
         with open("samples/1670609153225.txt", encoding='utf-8') as f:
             for line in f.readlines():
                 (milliseconds, data) = line.split(" ")

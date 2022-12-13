@@ -1,7 +1,7 @@
 import time
 import serial
 
-from monitor import Capture
+from monitor.Capture import Capture
 
 def main():
 

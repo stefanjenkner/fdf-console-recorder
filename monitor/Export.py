@@ -1,11 +1,11 @@
 import datetime
 import xml.etree.ElementTree as ET
-from collections import OrderedDict
 from io import BytesIO
-from statistics import harmonic_mean
 
 import fitdecode as fitdecode
-from monitor import Capture
+
+from monitor.Capture import Capture
+from monitor.TimeSeries import TimeSeries
 
 XSI_NS = "http://www.w3.org/2001/XMLSchema-instance"
 TCD_NS = "http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2"
@@ -87,12 +87,12 @@ class Export(object):
         if not self._isInitialized:
             self._init(capture)
 
-        total_time_seconds = capture.totalMinutes * 60 + capture.totalSeconds
+        total_time_seconds = int(capture.elapsed_time.total_seconds())
         iso_time = self._get_formatted_time(capture.time)
 
         self._totalTimeSeconds.text = str(total_time_seconds)
         self._distanceMeters.text = str(capture.distance)
-        self._calories_per_hour[total_time_seconds] = capture.caloriesPerHour
+        self._calories_per_hour[total_time_seconds] = capture.calories_per_hour
 
         trackpoint = ET.SubElement(self._track, "Trackpoint")
 
@@ -103,7 +103,7 @@ class Export(object):
         distance_meters.text = str(capture.distance)
 
         cadence = ET.SubElement(trackpoint, "Cadence")
-        cadence.text = str(capture.strokesPerMinute)
+        cadence.text = str(capture.strokes_per_minute)
 
         if iso_time in self._external_heart_rates:
             bpm = self._external_heart_rates[iso_time]
@@ -116,7 +116,7 @@ class Export(object):
         tpx = ET.SubElement(extensions, "{" + AE_NS + "}TPX")
 
         try:
-            meters_per_second = 500 / (capture.minutesTo500m * 60 + capture.secondsTo500m)
+            meters_per_second = 500 / capture.time_to_500m.total_seconds()
         except ZeroDivisionError:
             meters_per_second = 0.0
         self._speeds[total_time_seconds] = round(meters_per_second, 2)
@@ -131,7 +131,7 @@ class Export(object):
         self._intensity.text = "Active"
         self._triggerMethod.text = "Manual"
 
-        start_time = first_capture.time - datetime.timedelta(seconds=first_capture.totalSeconds)
+        start_time = first_capture.time - first_capture.elapsed_time
         formatted_start_time = self._get_formatted_time(start_time)
         self._id.text = formatted_start_time
         self._lap.attrib["StartTime"] = formatted_start_time
@@ -145,7 +145,8 @@ class Export(object):
         self._update_speed_stats()
 
     def _update_calories(self):
-        _, mean = Export._get_stats(self._calories_per_hour)
+        time_series = TimeSeries(self._calories_per_hour)
+        mean = time_series.get_harmonic_mean()
         total_time_hours = int(self._totalTimeSeconds.text) / 3600
         self._calories.text = str(round(mean * total_time_hours))
 
@@ -154,17 +155,19 @@ class Export(object):
             self._lap.remove(self._avg_heart_rate_value)
             self._lap.remove(self._max_heart_rate_value)
             return
-        maximum, mean = Export._get_stats(self._heart_rates)
-        self._avg_heart_rate_value.find("Value").text = str(round(mean))
-        self._max_heart_rate_value.find("Value").text = str(maximum)
+        time_series = TimeSeries(self._heart_rates)
+        self._avg_heart_rate_value.find("Value").text = str(round(time_series.get_harmonic_mean()))
+        self._max_heart_rate_value.find("Value").text = str(time_series.get_max())
 
     def _update_watts_stats(self):
-        maximum, mean = Export._get_stats(self._watts)
-        self._avg_watts.text = str(round(mean))
-        self._max_watts.text = str(maximum)
+        time_series = TimeSeries(self._watts)
+        self._avg_watts.text = str(round(time_series.get_harmonic_mean()))
+        self._max_watts.text = str(time_series.get_max())
 
     def _update_speed_stats(self):
-        maximum, mean = Export._get_stats(self._speeds)
+        time_series = TimeSeries(self._speeds)
+        maximum = time_series.get_max()
+        mean = time_series.get_harmonic_mean()
         self._avg_speed.text = f'{mean:.02f}'
         self._maximum_speed.text = f'{maximum:.02f}'
 
@@ -179,19 +182,6 @@ class Export(object):
         ET.indent(self._root, space="\t", level=0)
         ET.ElementTree(self._root).write(result, encoding='utf-8', method="xml", xml_declaration=True)
         return result.getvalue().decode()
-
-    @staticmethod
-    def _get_stats(time_series: dict):
-        distribution = {}
-        elapsed_seconds = 0
-        ordered_time_series = OrderedDict(sorted(time_series.items()))
-        for second, value in ordered_time_series.items():
-            if value > 0:
-                distribution[value] = distribution.get(value, 0) + second - elapsed_seconds
-            elapsed_seconds = second
-        maximum = max(distribution.keys())
-        mean = harmonic_mean(distribution.keys(), weights=distribution.values())
-        return maximum, mean
 
     @staticmethod
     def _get_formatted_time(time: datetime):

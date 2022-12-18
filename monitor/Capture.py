@@ -18,7 +18,7 @@ class Capture(object):
     def __init__(self, milliseconds: int, raw: str):
         assert raw[0] == 'A'
 
-        self.time = datetime.fromtimestamp(milliseconds / 1000)
+        self.time = datetime.fromtimestamp(int(milliseconds / 1000))
         self.utc_time = self.time.astimezone(timezone.utc)
 
         total_minutes = int(raw[3:5], base=10)

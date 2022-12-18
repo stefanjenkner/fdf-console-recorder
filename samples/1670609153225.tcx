@@ -7,7 +7,7 @@
 				<TotalTimeSeconds>1812</TotalTimeSeconds>
 				<DistanceMeters>6300</DistanceMeters>
 				<MaximumSpeed>3.97</MaximumSpeed>
-				<Calories>367</Calories>
+				<Calories>370</Calories>
 				<Intensity>Active</Intensity>
 				<TriggerMethod>Manual</TriggerMethod>
 				<Track>
@@ -9254,8 +9254,8 @@
 				</Track>
 				<Extensions>
 					<ae:LX>
-						<ae:AvgSpeed>3.48</ae:AvgSpeed>
-						<ae:AvgWatts>126</ae:AvgWatts>
+						<ae:AvgSpeed>3.49</ae:AvgSpeed>
+						<ae:AvgWatts>127</ae:AvgWatts>
 						<ae:MaxWatts>171</ae:MaxWatts>
 					</ae:LX>
 				</Extensions>

@@ -6,8 +6,8 @@
 			<Lap StartTime="2022-12-11T20:20:41Z">
 				<TotalTimeSeconds>1810</TotalTimeSeconds>
 				<DistanceMeters>6015</DistanceMeters>
-				<MaximumSpeed>3.97</MaximumSpeed>
-				<Calories>350</Calories>
+				<MaximumSpeed>3.91</MaximumSpeed>
+				<Calories>346</Calories>
 				<Intensity>Active</Intensity>
 				<TriggerMethod>Manual</TriggerMethod>
 				<Track>
@@ -11223,9 +11223,9 @@
 				</Track>
 				<Extensions>
 					<ae:LX>
-						<ae:AvgSpeed>3.35</ae:AvgSpeed>
-						<ae:AvgWatts>116</ae:AvgWatts>
-						<ae:MaxWatts>171</ae:MaxWatts>
+						<ae:AvgSpeed>3.33</ae:AvgSpeed>
+						<ae:AvgWatts>114</ae:AvgWatts>
+						<ae:MaxWatts>149</ae:MaxWatts>
 					</ae:LX>
 				</Extensions>
 			</Lap>

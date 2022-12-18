@@ -6,7 +6,6 @@ import fitdecode as fitdecode
 
 from monitor.Capture import Capture
 from monitor.DataFrame import DataFrame
-from monitor.TimeSeries import TimeSeries
 
 XSI_NS = "http://www.w3.org/2001/XMLSchema-instance"
 TCD_NS = "http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2"
@@ -17,7 +16,11 @@ class Export(object):
 
     __start: datetime
     __end: datetime
-    __frame: DataFrame = None
+    __frame: DataFrame
+
+    __watts: dict[datetime, int]
+    __calories_per_hour: dict[datetime, int]
+    __speed: dict[datetime, float]
 
     _isInitialized: bool = False
     _root = None
@@ -36,13 +39,12 @@ class Export(object):
     _triggerMethod = None
     _track = None
 
-    _calories_per_hour = {}
-    _speeds = {}
-    _watts = {}
-
     def __init__(self):
 
         self.__frame = DataFrame()
+        self.__watts = {}
+        self.__calories_per_hour = {}
+        self.__speeds = {}
 
         ET.register_namespace("", TCD_NS)
         ET.register_namespace("xsi", XSI_NS)
@@ -105,7 +107,7 @@ class Export(object):
 
         self._totalTimeSeconds.text = str(elapsed_time)
         self._distanceMeters.text = str(capture.distance)
-        self._calories_per_hour[elapsed_time] = capture.calories_per_hour
+        self.__calories_per_hour[capture.utc_time] = capture.calories_per_hour
 
         trackpoint = ET.SubElement(self._track, "Trackpoint")
 
@@ -123,10 +125,6 @@ class Export(object):
             bpm = self.__frame.get(capture.utc_time, 'BPM_linear')
             if bpm:
                 Export._add_value_element(trackpoint, "HeartRateBpm", str(int(bpm)))
-            else:
-                print("No heart rate for: " + iso_time)
-        else:
-            print("No heart rate for: " + iso_time)
 
         extensions = ET.SubElement(trackpoint, "Extensions")
         tpx = ET.SubElement(extensions, "{" + AE_NS + "}TPX")
@@ -135,13 +133,13 @@ class Export(object):
             meters_per_second = 500 / capture.time_to_500m.total_seconds()
         except ZeroDivisionError:
             meters_per_second = 0.0
-        self._speeds[elapsed_time] = round(meters_per_second, 2)
+        self.__speeds[capture.utc_time] = round(meters_per_second, 2)
         speed = ET.SubElement(tpx, "{" + AE_NS + "}Speed")
         speed.text = f'{meters_per_second:.02f}'
 
         watts = ET.SubElement(tpx, "{" + AE_NS + "}Watts")
         watts.text = str(capture.watt)
-        self._watts[elapsed_time] = capture.watt
+        self.__watts[capture.utc_time] = capture.watt
 
     def _init(self, first_capture: Capture):
         self.__start = first_capture.utc_time - first_capture.elapsed_time
@@ -159,10 +157,12 @@ class Export(object):
         self._update_heart_rate_stats()
         self._update_watts_stats()
         self._update_speed_stats()
+        self.__frame.print()
 
     def _update_calories(self):
-        time_series = TimeSeries(self._calories_per_hour)
-        mean = time_series.get_harmonic_mean()
+        self.__frame.load_from_dict(self.__calories_per_hour, "CalPH")
+        self.__frame.interpolate("CalPH", "CalPH_linear", method="linear")
+        mean = self.__frame.mean(self.__start, self.__end, "CalPH_linear")
         total_time_hours = int(self._totalTimeSeconds.text) / 3600
         self._calories.text = str(round(mean * total_time_hours))
 
@@ -177,16 +177,18 @@ class Export(object):
             self._lap.remove(self._max_heart_rate_value)
 
     def _update_watts_stats(self):
-        time_series = TimeSeries(self._watts)
-        self._avg_watts.text = str(round(time_series.get_harmonic_mean()))
-        self._max_watts.text = str(time_series.get_max())
+        self.__frame.load_from_dict(self.__watts, "Watt")
+        mean = self.__frame.mean(self.__start, self.__end, "Watt")
+        max = self.__frame.max(self.__start, self.__end, "Watt")
+        self._avg_watts.text = str(round(mean))
+        self._max_watts.text = str(round(max))
 
     def _update_speed_stats(self):
-        time_series = TimeSeries(self._speeds)
-        maximum = time_series.get_max()
-        mean = time_series.get_harmonic_mean()
+        self.__frame.load_from_dict(self.__speeds, "Speed")
+        mean = self.__frame.mean(self.__start, self.__end, "Speed")
+        max = self.__frame.max(self.__start, self.__end, "Speed")
         self._avg_speed.text = f'{mean:.02f}'
-        self._maximum_speed.text = f'{maximum:.02f}'
+        self._maximum_speed.text = f'{max:.02f}'
 
     def write(self, f):
         self._post_processing()

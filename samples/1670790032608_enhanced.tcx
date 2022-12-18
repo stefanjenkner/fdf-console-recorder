@@ -6,8 +6,8 @@
 			<Lap StartTime="2022-12-11T20:20:41Z">
 				<TotalTimeSeconds>1810</TotalTimeSeconds>
 				<DistanceMeters>6015</DistanceMeters>
-				<MaximumSpeed>3.97</MaximumSpeed>
-				<Calories>350</Calories>
+				<MaximumSpeed>3.91</MaximumSpeed>
+				<Calories>347</Calories>
 				<AverageHeartRateBpm>
 					<Value>139</Value>
 				</AverageHeartRateBpm>
@@ -148,7 +148,7 @@
 						<DistanceMeters>61</DistanceMeters>
 						<Cadence>35</Cadence>
 						<HeartRateBpm>
-							<Value>100</Value>
+							<Value>99</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -176,7 +176,7 @@
 						<DistanceMeters>74</DistanceMeters>
 						<Cadence>34</Cadence>
 						<HeartRateBpm>
-							<Value>102</Value>
+							<Value>101</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -190,7 +190,7 @@
 						<DistanceMeters>80</DistanceMeters>
 						<Cadence>31</Cadence>
 						<HeartRateBpm>
-							<Value>104</Value>
+							<Value>103</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -274,7 +274,7 @@
 						<DistanceMeters>119</DistanceMeters>
 						<Cadence>32</Cadence>
 						<HeartRateBpm>
-							<Value>108</Value>
+							<Value>107</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -288,7 +288,7 @@
 						<DistanceMeters>126</DistanceMeters>
 						<Cadence>32</Cadence>
 						<HeartRateBpm>
-							<Value>110</Value>
+							<Value>109</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -400,7 +400,7 @@
 						<DistanceMeters>178</DistanceMeters>
 						<Cadence>32</Cadence>
 						<HeartRateBpm>
-							<Value>113</Value>
+							<Value>112</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -414,7 +414,7 @@
 						<DistanceMeters>184</DistanceMeters>
 						<Cadence>31</Cadence>
 						<HeartRateBpm>
-							<Value>115</Value>
+							<Value>114</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -722,7 +722,7 @@
 						<DistanceMeters>332</DistanceMeters>
 						<Cadence>31</Cadence>
 						<HeartRateBpm>
-							<Value>129</Value>
+							<Value>128</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -904,7 +904,7 @@
 						<DistanceMeters>417</DistanceMeters>
 						<Cadence>32</Cadence>
 						<HeartRateBpm>
-							<Value>130</Value>
+							<Value>131</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -1254,7 +1254,7 @@
 						<DistanceMeters>583</DistanceMeters>
 						<Cadence>30</Cadence>
 						<HeartRateBpm>
-							<Value>129</Value>
+							<Value>130</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -1408,7 +1408,7 @@
 						<DistanceMeters>656</DistanceMeters>
 						<Cadence>31</Cadence>
 						<HeartRateBpm>
-							<Value>131</Value>
+							<Value>130</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -1632,7 +1632,7 @@
 						<DistanceMeters>763</DistanceMeters>
 						<Cadence>30</Cadence>
 						<HeartRateBpm>
-							<Value>130</Value>
+							<Value>129</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -1842,7 +1842,7 @@
 						<DistanceMeters>860</DistanceMeters>
 						<Cadence>32</Cadence>
 						<HeartRateBpm>
-							<Value>131</Value>
+							<Value>130</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -2164,7 +2164,7 @@
 						<DistanceMeters>1013</DistanceMeters>
 						<Cadence>32</Cadence>
 						<HeartRateBpm>
-							<Value>136</Value>
+							<Value>135</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -2178,7 +2178,7 @@
 						<DistanceMeters>1020</DistanceMeters>
 						<Cadence>32</Cadence>
 						<HeartRateBpm>
-							<Value>137</Value>
+							<Value>136</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -2402,7 +2402,7 @@
 						<DistanceMeters>1127</DistanceMeters>
 						<Cadence>31</Cadence>
 						<HeartRateBpm>
-							<Value>141</Value>
+							<Value>140</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -2976,7 +2976,7 @@
 						<DistanceMeters>1392</DistanceMeters>
 						<Cadence>33</Cadence>
 						<HeartRateBpm>
-							<Value>139</Value>
+							<Value>138</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -2990,7 +2990,7 @@
 						<DistanceMeters>1398</DistanceMeters>
 						<Cadence>33</Cadence>
 						<HeartRateBpm>
-							<Value>140</Value>
+							<Value>139</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -3410,7 +3410,7 @@
 						<DistanceMeters>1596</DistanceMeters>
 						<Cadence>33</Cadence>
 						<HeartRateBpm>
-							<Value>140</Value>
+							<Value>139</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -4026,7 +4026,7 @@
 						<DistanceMeters>1881</DistanceMeters>
 						<Cadence>31</Cadence>
 						<HeartRateBpm>
-							<Value>144</Value>
+							<Value>143</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -4124,7 +4124,7 @@
 						<DistanceMeters>1926</DistanceMeters>
 						<Cadence>31</Cadence>
 						<HeartRateBpm>
-							<Value>142</Value>
+							<Value>143</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -4166,7 +4166,7 @@
 						<DistanceMeters>1946</DistanceMeters>
 						<Cadence>32</Cadence>
 						<HeartRateBpm>
-							<Value>141</Value>
+							<Value>142</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -4348,7 +4348,7 @@
 						<DistanceMeters>2028</DistanceMeters>
 						<Cadence>32</Cadence>
 						<HeartRateBpm>
-							<Value>139</Value>
+							<Value>140</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -4432,7 +4432,7 @@
 						<DistanceMeters>2065</DistanceMeters>
 						<Cadence>34</Cadence>
 						<HeartRateBpm>
-							<Value>140</Value>
+							<Value>139</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -4488,7 +4488,7 @@
 						<DistanceMeters>2090</DistanceMeters>
 						<Cadence>33</Cadence>
 						<HeartRateBpm>
-							<Value>142</Value>
+							<Value>141</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -4754,7 +4754,7 @@
 						<DistanceMeters>2209</DistanceMeters>
 						<Cadence>33</Cadence>
 						<HeartRateBpm>
-							<Value>141</Value>
+							<Value>140</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -4936,7 +4936,7 @@
 						<DistanceMeters>2287</DistanceMeters>
 						<Cadence>32</Cadence>
 						<HeartRateBpm>
-							<Value>140</Value>
+							<Value>141</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -4950,7 +4950,7 @@
 						<DistanceMeters>2293</DistanceMeters>
 						<Cadence>33</Cadence>
 						<HeartRateBpm>
-							<Value>139</Value>
+							<Value>140</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -5132,7 +5132,7 @@
 						<DistanceMeters>2372</DistanceMeters>
 						<Cadence>32</Cadence>
 						<HeartRateBpm>
-							<Value>138</Value>
+							<Value>139</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -5202,7 +5202,7 @@
 						<DistanceMeters>2402</DistanceMeters>
 						<Cadence>32</Cadence>
 						<HeartRateBpm>
-							<Value>139</Value>
+							<Value>138</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -5272,7 +5272,7 @@
 						<DistanceMeters>2433</DistanceMeters>
 						<Cadence>31</Cadence>
 						<HeartRateBpm>
-							<Value>139</Value>
+							<Value>140</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -5454,7 +5454,7 @@
 						<DistanceMeters>2510</DistanceMeters>
 						<Cadence>32</Cadence>
 						<HeartRateBpm>
-							<Value>137</Value>
+							<Value>138</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -5888,7 +5888,7 @@
 						<DistanceMeters>2691</DistanceMeters>
 						<Cadence>33</Cadence>
 						<HeartRateBpm>
-							<Value>133</Value>
+							<Value>134</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -6014,7 +6014,7 @@
 						<DistanceMeters>2741</DistanceMeters>
 						<Cadence>33</Cadence>
 						<HeartRateBpm>
-							<Value>129</Value>
+							<Value>130</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -6112,7 +6112,7 @@
 						<DistanceMeters>2782</DistanceMeters>
 						<Cadence>33</Cadence>
 						<HeartRateBpm>
-							<Value>131</Value>
+							<Value>130</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -6588,7 +6588,7 @@
 						<DistanceMeters>2986</DistanceMeters>
 						<Cadence>30</Cadence>
 						<HeartRateBpm>
-							<Value>135</Value>
+							<Value>134</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -6798,7 +6798,7 @@
 						<DistanceMeters>3074</DistanceMeters>
 						<Cadence>32</Cadence>
 						<HeartRateBpm>
-							<Value>134</Value>
+							<Value>135</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -6994,7 +6994,7 @@
 						<DistanceMeters>3158</DistanceMeters>
 						<Cadence>34</Cadence>
 						<HeartRateBpm>
-							<Value>136</Value>
+							<Value>135</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -7414,7 +7414,7 @@
 						<DistanceMeters>3340</DistanceMeters>
 						<Cadence>32</Cadence>
 						<HeartRateBpm>
-							<Value>135</Value>
+							<Value>134</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -7582,7 +7582,7 @@
 						<DistanceMeters>3409</DistanceMeters>
 						<Cadence>34</Cadence>
 						<HeartRateBpm>
-							<Value>133</Value>
+							<Value>134</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -7666,7 +7666,7 @@
 						<DistanceMeters>3445</DistanceMeters>
 						<Cadence>32</Cadence>
 						<HeartRateBpm>
-							<Value>135</Value>
+							<Value>134</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -7750,7 +7750,7 @@
 						<DistanceMeters>3480</DistanceMeters>
 						<Cadence>31</Cadence>
 						<HeartRateBpm>
-							<Value>133</Value>
+							<Value>134</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -8394,7 +8394,7 @@
 						<DistanceMeters>3760</DistanceMeters>
 						<Cadence>33</Cadence>
 						<HeartRateBpm>
-							<Value>137</Value>
+							<Value>136</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -9122,7 +9122,7 @@
 						<DistanceMeters>4083</DistanceMeters>
 						<Cadence>33</Cadence>
 						<HeartRateBpm>
-							<Value>141</Value>
+							<Value>142</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -9276,7 +9276,7 @@
 						<DistanceMeters>4147</DistanceMeters>
 						<Cadence>34</Cadence>
 						<HeartRateBpm>
-							<Value>138</Value>
+							<Value>139</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -9598,7 +9598,7 @@
 						<DistanceMeters>4276</DistanceMeters>
 						<Cadence>33</Cadence>
 						<HeartRateBpm>
-							<Value>134</Value>
+							<Value>135</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -9710,7 +9710,7 @@
 						<DistanceMeters>4322</DistanceMeters>
 						<Cadence>32</Cadence>
 						<HeartRateBpm>
-							<Value>134</Value>
+							<Value>135</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -10382,7 +10382,7 @@
 						<DistanceMeters>4587</DistanceMeters>
 						<Cadence>39</Cadence>
 						<HeartRateBpm>
-							<Value>143</Value>
+							<Value>144</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -10508,7 +10508,7 @@
 						<DistanceMeters>4634</DistanceMeters>
 						<Cadence>39</Cadence>
 						<HeartRateBpm>
-							<Value>144</Value>
+							<Value>143</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -10676,7 +10676,7 @@
 						<DistanceMeters>4695</DistanceMeters>
 						<Cadence>37</Cadence>
 						<HeartRateBpm>
-							<Value>144</Value>
+							<Value>145</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -10788,7 +10788,7 @@
 						<DistanceMeters>4740</DistanceMeters>
 						<Cadence>34</Cadence>
 						<HeartRateBpm>
-							<Value>144</Value>
+							<Value>143</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -10802,7 +10802,7 @@
 						<DistanceMeters>4744</DistanceMeters>
 						<Cadence>37</Cadence>
 						<HeartRateBpm>
-							<Value>145</Value>
+							<Value>144</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -11250,7 +11250,7 @@
 						<DistanceMeters>4917</DistanceMeters>
 						<Cadence>39</Cadence>
 						<HeartRateBpm>
-							<Value>149</Value>
+							<Value>148</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -11278,7 +11278,7 @@
 						<DistanceMeters>4927</DistanceMeters>
 						<Cadence>42</Cadence>
 						<HeartRateBpm>
-							<Value>150</Value>
+							<Value>149</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -11306,7 +11306,7 @@
 						<DistanceMeters>4938</DistanceMeters>
 						<Cadence>42</Cadence>
 						<HeartRateBpm>
-							<Value>151</Value>
+							<Value>150</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -11334,7 +11334,7 @@
 						<DistanceMeters>4949</DistanceMeters>
 						<Cadence>42</Cadence>
 						<HeartRateBpm>
-							<Value>152</Value>
+							<Value>151</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -11572,7 +11572,7 @@
 						<DistanceMeters>5035</DistanceMeters>
 						<Cadence>39</Cadence>
 						<HeartRateBpm>
-							<Value>155</Value>
+							<Value>156</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -11586,7 +11586,7 @@
 						<DistanceMeters>5040</DistanceMeters>
 						<Cadence>39</Cadence>
 						<HeartRateBpm>
-							<Value>154</Value>
+							<Value>155</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -11670,7 +11670,7 @@
 						<DistanceMeters>5068</DistanceMeters>
 						<Cadence>39</Cadence>
 						<HeartRateBpm>
-							<Value>152</Value>
+							<Value>153</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -11810,7 +11810,7 @@
 						<DistanceMeters>5114</DistanceMeters>
 						<Cadence>38</Cadence>
 						<HeartRateBpm>
-							<Value>145</Value>
+							<Value>146</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -12048,7 +12048,7 @@
 						<DistanceMeters>5196</DistanceMeters>
 						<Cadence>38</Cadence>
 						<HeartRateBpm>
-							<Value>142</Value>
+							<Value>143</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -12356,7 +12356,7 @@
 						<DistanceMeters>5311</DistanceMeters>
 						<Cadence>38</Cadence>
 						<HeartRateBpm>
-							<Value>143</Value>
+							<Value>142</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -12776,7 +12776,7 @@
 						<DistanceMeters>5468</DistanceMeters>
 						<Cadence>39</Cadence>
 						<HeartRateBpm>
-							<Value>152</Value>
+							<Value>151</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -12986,7 +12986,7 @@
 						<DistanceMeters>5544</DistanceMeters>
 						<Cadence>44</Cadence>
 						<HeartRateBpm>
-							<Value>156</Value>
+							<Value>155</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -13168,7 +13168,7 @@
 						<DistanceMeters>5610</DistanceMeters>
 						<Cadence>39</Cadence>
 						<HeartRateBpm>
-							<Value>156</Value>
+							<Value>157</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -13294,7 +13294,7 @@
 						<DistanceMeters>5655</DistanceMeters>
 						<Cadence>39</Cadence>
 						<HeartRateBpm>
-							<Value>156</Value>
+							<Value>157</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -13546,7 +13546,7 @@
 						<DistanceMeters>5750</DistanceMeters>
 						<Cadence>38</Cadence>
 						<HeartRateBpm>
-							<Value>157</Value>
+							<Value>156</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -14078,7 +14078,7 @@
 						<DistanceMeters>5939</DistanceMeters>
 						<Cadence>37</Cadence>
 						<HeartRateBpm>
-							<Value>153</Value>
+							<Value>154</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -14134,7 +14134,7 @@
 						<DistanceMeters>5959</DistanceMeters>
 						<Cadence>37</Cadence>
 						<HeartRateBpm>
-							<Value>152</Value>
+							<Value>153</Value>
 						</HeartRateBpm>
 						<Extensions>
 							<ae:TPX>
@@ -14283,9 +14283,9 @@
 				</Track>
 				<Extensions>
 					<ae:LX>
-						<ae:AvgSpeed>3.35</ae:AvgSpeed>
-						<ae:AvgWatts>116</ae:AvgWatts>
-						<ae:MaxWatts>171</ae:MaxWatts>
+						<ae:AvgSpeed>3.33</ae:AvgSpeed>
+						<ae:AvgWatts>114</ae:AvgWatts>
+						<ae:MaxWatts>149</ae:MaxWatts>
 					</ae:LX>
 				</Extensions>
 			</Lap>

@@ -48,7 +48,7 @@ def main():
                 out = out_bytes.decode('utf-8')
                 out = out.strip()
             if out[:1] == "A":
-                capture = Capture(out) 
+                capture = Capture(milliseconds, out)
                 
                 if capture.distance and sessionDistance:
                     if capture.distance < sessionDistance:

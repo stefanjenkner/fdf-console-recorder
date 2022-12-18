@@ -84,9 +84,8 @@ class TestDataFrame(unittest.TestCase):
     def test_interpolate(self):
 
         start = min(self._external_heart_rates.keys())
-        end = max(self._external_heart_rates.keys())
 
-        frame = DataFrame(start, end)
+        frame = DataFrame()
         frame.load_from_dict(self._external_heart_rates, 'BPM')
         frame.interpolate('BPM', 'BPM_nearest', method='nearest')
         frame.interpolate('BPM', 'BPM_linear', method='linear')
@@ -95,7 +94,7 @@ class TestDataFrame(unittest.TestCase):
     def test_mean(self):
         start = min(self._external_heart_rates.keys())
         end = max(self._external_heart_rates.keys())
-        frame = DataFrame(start, end)
+        frame = DataFrame()
         frame.load_from_dict(self._external_heart_rates, 'BPM')
         frame.interpolate('BPM', 'BPM_linear', method='linear')
         print(frame.mean(start, end, 'BPM'))
@@ -103,7 +102,7 @@ class TestDataFrame(unittest.TestCase):
     def test_max(self):
         start = min(self._external_heart_rates.keys())
         end = max(self._external_heart_rates.keys())
-        frame = DataFrame(start, end)
+        frame = DataFrame()
         frame.load_from_dict(self._external_heart_rates, 'BPM')
 
         expected = max(self._external_heart_rates.values())

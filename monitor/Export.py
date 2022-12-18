@@ -42,6 +42,8 @@ class Export(object):
 
     def __init__(self):
 
+        self.__frame = DataFrame()
+
         ET.register_namespace("", TCD_NS)
         ET.register_namespace("xsi", XSI_NS)
         ET.register_namespace("ae", AE_NS)
@@ -75,7 +77,6 @@ class Export(object):
             timestamp = datetime.datetime.fromisoformat(iso_time)
             bpm = trackpoint.find("{" + TCD_NS + "}HeartRateBpm/{" + TCD_NS + "}Value").text
             external_heart_rates[timestamp] = int(bpm)
-        self.__frame = DataFrame(min(external_heart_rates.keys()), max(external_heart_rates.keys()))
         self.__frame.load_from_dict(external_heart_rates, 'BPM')
         self.__frame.interpolate('BPM', 'BPM_nearest', method='nearest')
         self.__frame.interpolate('BPM', 'BPM_linear', method='linear')
@@ -89,7 +90,6 @@ class Export(object):
                     timestamp = list(filter(lambda x: x.name == 'timestamp', frame.fields))[0].value
                     heart_rate = list(filter(lambda x: x.name == 'heart_rate', frame.fields))[0].value
                     external_heart_rates[timestamp] = int(heart_rate)
-        self.__frame = DataFrame(min(external_heart_rates.keys()), max(external_heart_rates.keys()))
         self.__frame.load_from_dict(external_heart_rates, 'BPM')
         self.__frame.interpolate('BPM', 'BPM_nearest', method='nearest')
         self.__frame.interpolate('BPM', 'BPM_linear', method='linear')

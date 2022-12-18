@@ -36,7 +36,6 @@ class Export(object):
 
     _calories_per_hour = {}
     _heart_rates = {}
-    _external_heart_rates = {}
     _speeds = {}
     _watts = {}
 
@@ -66,14 +65,22 @@ class Export(object):
         self._max_watts = ET.SubElement(lx, "{" + AE_NS + "}MaxWatts")
 
     def load_heart_rate_from_tcx(self, filename: str):
-        self._external_heart_rates = {}
+        """Load external HR data from TCX file."""
+        external_heart_rates: dict[datetime.datetime, int] = {}
         tree = ET.parse(filename)
         for trackpoint in tree.findall(".//{" + TCD_NS + "}Trackpoint[{" + TCD_NS + "}HeartRateBpm]"):
-            iso_time = trackpoint.find("{" + TCD_NS + "}Time").text
+            almost_iso_time = trackpoint.find("{" + TCD_NS + "}Time").text
+            iso_time = almost_iso_time.replace('Z', '+00:00')
+            timestamp = datetime.datetime.fromisoformat(iso_time)
             bpm = trackpoint.find("{" + TCD_NS + "}HeartRateBpm/{" + TCD_NS + "}Value").text
-            self._external_heart_rates[iso_time] = int(bpm)
+            external_heart_rates[timestamp] = int(bpm)
+        self.__frame = DataFrame(min(external_heart_rates.keys()), max(external_heart_rates.keys()))
+        self.__frame.load_from_dict(external_heart_rates, 'BPM')
+        self.__frame.interpolate('BPM', 'BPM_nearest', method='nearest')
+        self.__frame.interpolate('BPM', 'BPM_linear', method='linear')
 
     def load_heart_rate_from_fit(self, filename: str):
+        """Load external HR data from FIT file."""
         external_heart_rates: dict[datetime.datetime, int] = {}
         with fitdecode.FitReader(filename) as fit:
             for frame in fit:
@@ -86,13 +93,8 @@ class Export(object):
         self.__frame.interpolate('BPM', 'BPM_nearest', method='nearest')
         self.__frame.interpolate('BPM', 'BPM_linear', method='linear')
 
-
     def add_trackpoint(self, capture: Capture):
-        """
-
-        :return:
-        """
-        #
+        """"""
         if not self._isInitialized:
             self._init(capture)
 
@@ -115,13 +117,7 @@ class Export(object):
         cadence = ET.SubElement(trackpoint, "Cadence")
         cadence.text = str(capture.strokes_per_minute)
 
-        if iso_time in self._external_heart_rates:
-            bpm = self._external_heart_rates[iso_time]
-            Export._add_value_element(trackpoint, "HeartRateBpm", str(bpm))
-            self._heart_rates[elapsed_time] = bpm
-        elif len(self._external_heart_rates) > 0:
-            print("No heart rate for: " + iso_time)
-        elif self.__frame:
+        if self.__frame:
             #bpm = self.__frame.get(utc_time, 'BPM_nearest')
             bpm = self.__frame.get(utc_time, 'BPM_linear')
             if bpm:
@@ -129,6 +125,8 @@ class Export(object):
                 self._heart_rates[elapsed_time] = bpm
             else:
                 print("No heart rate for: " + iso_time)
+        else:
+            print("No heart rate for: " + iso_time)
 
         extensions = ET.SubElement(trackpoint, "Extensions")
         tpx = ET.SubElement(extensions, "{" + AE_NS + "}TPX")

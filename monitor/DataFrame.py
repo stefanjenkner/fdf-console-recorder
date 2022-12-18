@@ -49,3 +49,6 @@ class DataFrame(object):
 
     def print(self):
         print(self.__df)
+
+    def print(self, start, end):
+        print(self.__df[start:end])

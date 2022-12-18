@@ -32,7 +32,7 @@ def main():
     with open(args.record_filename, 'r', encoding='utf-8') as f:
         for line in f.readlines():
             (milliseconds, data) = line.split(" ")
-            export.add_trackpoint(Capture(int(milliseconds), data))
+            export.add_track_point(Capture(int(milliseconds), data))
 
     if args.output:
         with open(args.output, 'wb') as f:

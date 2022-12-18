@@ -17,7 +17,6 @@ class Export(object):
     __start: datetime
     __end: datetime
     __frame: DataFrame
-
     __watts: dict[datetime, int]
     __calories_per_hour: dict[datetime, int]
     __speed: dict[datetime, float]
@@ -96,13 +95,12 @@ class Export(object):
         self.__frame.interpolate('BPM', 'BPM_nearest', method='nearest')
         self.__frame.interpolate('BPM', 'BPM_linear', method='linear')
 
-    def add_trackpoint(self, capture: Capture):
+    def add_track_point(self, capture: Capture):
         """"""
         if not self._isInitialized:
             self._init(capture)
 
         elapsed_time = int(capture.elapsed_time.total_seconds())
-        iso_time = self._get_formatted_time(capture.utc_time)
         self.__end = capture.utc_time
 
         self._totalTimeSeconds.text = str(elapsed_time)
@@ -112,7 +110,7 @@ class Export(object):
         trackpoint = ET.SubElement(self._track, "Trackpoint")
 
         time = ET.SubElement(trackpoint, "Time")
-        time.text = iso_time
+        time.text = self._get_formatted_time(capture.utc_time)
 
         distance_meters = ET.SubElement(trackpoint, "DistanceMeters")
         distance_meters.text = str(capture.distance)
@@ -157,7 +155,7 @@ class Export(object):
         self._update_heart_rate_stats()
         self._update_watts_stats()
         self._update_speed_stats()
-        self.__frame.print()
+        self.__frame.print(self.__start, self.__end)
 
     def _update_calories(self):
         self.__frame.load_from_dict(self.__calories_per_hour, "CalPH")

@@ -5,6 +5,7 @@ from io import BytesIO
 import fitdecode as fitdecode
 
 from monitor.Capture import Capture
+from monitor.DataFrame import DataFrame
 from monitor.TimeSeries import TimeSeries
 
 XSI_NS = "http://www.w3.org/2001/XMLSchema-instance"
@@ -13,6 +14,9 @@ AE_NS = "http://www.garmin.com/xmlschemas/ActivityExtension/v2"
 
 
 class Export(object):
+
+    __frame: DataFrame = None
+
     _isInitialized: bool = False
     _root = None
     _id = None
@@ -37,6 +41,7 @@ class Export(object):
     _watts = {}
 
     def __init__(self):
+
         ET.register_namespace("", TCD_NS)
         ET.register_namespace("xsi", XSI_NS)
         ET.register_namespace("ae", AE_NS)
@@ -69,14 +74,18 @@ class Export(object):
             self._external_heart_rates[iso_time] = int(bpm)
 
     def load_heart_rate_from_fit(self, filename: str):
-        self._external_heart_rates = {}
+        external_heart_rates: dict[datetime.datetime, int] = {}
         with fitdecode.FitReader(filename) as fit:
             for frame in fit:
                 if frame.frame_type == fitdecode.FIT_FRAME_DATA and frame.name == "record":
                     timestamp = list(filter(lambda x: x.name == 'timestamp', frame.fields))[0].value
                     heart_rate = list(filter(lambda x: x.name == 'heart_rate', frame.fields))[0].value
-                    iso_time = timestamp.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-                    self._external_heart_rates[iso_time] = int(heart_rate)
+                    external_heart_rates[timestamp] = int(heart_rate)
+        self.__frame = DataFrame(min(external_heart_rates.keys()), max(external_heart_rates.keys()))
+        self.__frame.load_from_dict(external_heart_rates, 'BPM')
+        self.__frame.interpolate('BPM', 'BPM_nearest', method='nearest')
+        self.__frame.interpolate('BPM', 'BPM_linear', method='linear')
+
 
     def add_trackpoint(self, capture: Capture):
         """
@@ -87,12 +96,13 @@ class Export(object):
         if not self._isInitialized:
             self._init(capture)
 
-        total_time_seconds = int(capture.elapsed_time.total_seconds())
+        elapsed_time = int(capture.elapsed_time.total_seconds())
+        utc_time = capture.time.astimezone(datetime.timezone.utc)
         iso_time = self._get_formatted_time(capture.time)
 
-        self._totalTimeSeconds.text = str(total_time_seconds)
+        self._totalTimeSeconds.text = str(elapsed_time)
         self._distanceMeters.text = str(capture.distance)
-        self._calories_per_hour[total_time_seconds] = capture.calories_per_hour
+        self._calories_per_hour[elapsed_time] = capture.calories_per_hour
 
         trackpoint = ET.SubElement(self._track, "Trackpoint")
 
@@ -108,9 +118,17 @@ class Export(object):
         if iso_time in self._external_heart_rates:
             bpm = self._external_heart_rates[iso_time]
             Export._add_value_element(trackpoint, "HeartRateBpm", str(bpm))
-            self._heart_rates[total_time_seconds] = bpm
+            self._heart_rates[elapsed_time] = bpm
         elif len(self._external_heart_rates) > 0:
             print("No heart rate for: " + iso_time)
+        elif self.__frame:
+            #bpm = self.__frame.get(utc_time, 'BPM_nearest')
+            bpm = self.__frame.get(utc_time, 'BPM_linear')
+            if bpm:
+                Export._add_value_element(trackpoint, "HeartRateBpm", str(int(bpm)))
+                self._heart_rates[elapsed_time] = bpm
+            else:
+                print("No heart rate for: " + iso_time)
 
         extensions = ET.SubElement(trackpoint, "Extensions")
         tpx = ET.SubElement(extensions, "{" + AE_NS + "}TPX")
@@ -119,13 +137,13 @@ class Export(object):
             meters_per_second = 500 / capture.time_to_500m.total_seconds()
         except ZeroDivisionError:
             meters_per_second = 0.0
-        self._speeds[total_time_seconds] = round(meters_per_second, 2)
+        self._speeds[elapsed_time] = round(meters_per_second, 2)
         speed = ET.SubElement(tpx, "{" + AE_NS + "}Speed")
         speed.text = f'{meters_per_second:.02f}'
 
         watts = ET.SubElement(tpx, "{" + AE_NS + "}Watts")
         watts.text = str(capture.watt)
-        self._watts[total_time_seconds] = capture.watt
+        self._watts[elapsed_time] = capture.watt
 
     def _init(self, first_capture: Capture):
         self._intensity.text = "Active"
@@ -157,7 +175,7 @@ class Export(object):
             return
         time_series = TimeSeries(self._heart_rates)
         self._avg_heart_rate_value.find("Value").text = str(round(time_series.get_harmonic_mean()))
-        self._max_heart_rate_value.find("Value").text = str(time_series.get_max())
+        self._max_heart_rate_value.find("Value").text = str(int(time_series.get_max()))
 
     def _update_watts_stats(self):
         time_series = TimeSeries(self._watts)

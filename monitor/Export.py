@@ -15,6 +15,8 @@ AE_NS = "http://www.garmin.com/xmlschemas/ActivityExtension/v2"
 
 class Export(object):
 
+    __start: datetime
+    __end: datetime
     __frame: DataFrame = None
 
     _isInitialized: bool = False
@@ -35,7 +37,6 @@ class Export(object):
     _track = None
 
     _calories_per_hour = {}
-    _heart_rates = {}
     _speeds = {}
     _watts = {}
 
@@ -99,8 +100,8 @@ class Export(object):
             self._init(capture)
 
         elapsed_time = int(capture.elapsed_time.total_seconds())
-        utc_time = capture.time.astimezone(datetime.timezone.utc)
-        iso_time = self._get_formatted_time(capture.time)
+        iso_time = self._get_formatted_time(capture.utc_time)
+        self.__end = capture.utc_time
 
         self._totalTimeSeconds.text = str(elapsed_time)
         self._distanceMeters.text = str(capture.distance)
@@ -118,11 +119,10 @@ class Export(object):
         cadence.text = str(capture.strokes_per_minute)
 
         if self.__frame:
-            #bpm = self.__frame.get(utc_time, 'BPM_nearest')
-            bpm = self.__frame.get(utc_time, 'BPM_linear')
+            #bpm = self.__frame.get(capture.utc_time, 'BPM_nearest')
+            bpm = self.__frame.get(capture.utc_time, 'BPM_linear')
             if bpm:
                 Export._add_value_element(trackpoint, "HeartRateBpm", str(int(bpm)))
-                self._heart_rates[elapsed_time] = bpm
             else:
                 print("No heart rate for: " + iso_time)
         else:
@@ -144,11 +144,11 @@ class Export(object):
         self._watts[elapsed_time] = capture.watt
 
     def _init(self, first_capture: Capture):
+        self.__start = first_capture.utc_time - first_capture.elapsed_time
+
         self._intensity.text = "Active"
         self._triggerMethod.text = "Manual"
-
-        start_time = first_capture.time - first_capture.elapsed_time
-        formatted_start_time = self._get_formatted_time(start_time)
+        formatted_start_time = self._get_formatted_time(self.__start)
         self._id.text = formatted_start_time
         self._lap.attrib["StartTime"] = formatted_start_time
 
@@ -167,13 +167,14 @@ class Export(object):
         self._calories.text = str(round(mean * total_time_hours))
 
     def _update_heart_rate_stats(self):
-        if len(self._heart_rates) == 0:
+        try:
+            mean = self.__frame.mean(self.__start, self.__end, "BPM_linear")
+            max = self.__frame.max(self.__start, self.__end, "BPM")
+            self._avg_heart_rate_value.find("Value").text = str(round(mean))
+            self._max_heart_rate_value.find("Value").text = str(round(max))
+        except:
             self._lap.remove(self._avg_heart_rate_value)
             self._lap.remove(self._max_heart_rate_value)
-            return
-        time_series = TimeSeries(self._heart_rates)
-        self._avg_heart_rate_value.find("Value").text = str(round(time_series.get_harmonic_mean()))
-        self._max_heart_rate_value.find("Value").text = str(int(time_series.get_max()))
 
     def _update_watts_stats(self):
         time_series = TimeSeries(self._watts)
@@ -201,7 +202,7 @@ class Export(object):
 
     @staticmethod
     def _get_formatted_time(time: datetime):
-        return time.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        return time.strftime("%Y-%m-%dT%H:%M:%SZ")
 
     @staticmethod
     def _add_value_element(parent, tag, value=''):

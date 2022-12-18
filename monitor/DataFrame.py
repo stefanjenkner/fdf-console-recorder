@@ -25,3 +25,13 @@ class DataFrame(object):
         except IndexError:
             pass
         return None
+
+    def mean(self, start, end, column):
+        start__round = pd.to_datetime(start).round('S')
+        end__round = pd.to_datetime(end).round('S')
+        return self.__df[start__round:end__round].mean(axis=0)[column]
+
+    def max(self, start, end, column):
+        start__round = pd.to_datetime(start).round('S')
+        end__round = pd.to_datetime(end).round('S')
+        return self.__df[start__round:end__round].max(axis=0)[column]

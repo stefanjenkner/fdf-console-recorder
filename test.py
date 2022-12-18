@@ -92,6 +92,22 @@ class TestDataFrame(unittest.TestCase):
         frame.interpolate('BPM', 'BPM_linear', method='linear')
         print(frame.get(start, 'BPM_nearest'))
 
+    def test_mean(self):
+        start = min(self._external_heart_rates.keys())
+        end = max(self._external_heart_rates.keys())
+        frame = DataFrame(start, end)
+        frame.load_from_dict(self._external_heart_rates, 'BPM')
+        frame.interpolate('BPM', 'BPM_linear', method='linear')
+        print(frame.mean(start, end, 'BPM'))
+
+    def test_max(self):
+        start = min(self._external_heart_rates.keys())
+        end = max(self._external_heart_rates.keys())
+        frame = DataFrame(start, end)
+        frame.load_from_dict(self._external_heart_rates, 'BPM')
+
+        expected = max(self._external_heart_rates.values())
+        self.assertEqual(expected, frame.max(start, end, 'BPM'))
 
 if __name__ == '__main__':
     unittest.main()

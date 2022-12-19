@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import argparse
 
-from monitor.Recorder import Recorder
+from console.Recorder import Recorder
 
 DEFAULT_PORT = '/dev/ttyUSB0'
 

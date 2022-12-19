@@ -4,8 +4,8 @@ from io import BytesIO
 
 import fitdecode as fitdecode
 
-from monitor.Capture import Capture
-from monitor.DataFrame import DataFrame
+from console.Capture import Capture
+from console.DataFrame import DataFrame
 
 XSI_NS = "http://www.w3.org/2001/XMLSchema-instance"
 TCD_NS = "http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2"

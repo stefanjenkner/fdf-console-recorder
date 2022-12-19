@@ -1,5 +1,5 @@
-from monitor.Capture import Capture
-from monitor.Monitor import Monitor
+from console.Capture import Capture
+from console.Monitor import Monitor
 
 
 class Recorder(Monitor):

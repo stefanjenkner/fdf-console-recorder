@@ -5,9 +5,9 @@ import unittest
 
 import fitdecode
 
-from monitor.Capture import Capture
-from monitor.DataFrame import DataFrame
-from monitor.Export import Export
+from console.Capture import Capture
+from console.DataFrame import DataFrame
+from console.Export import Export
 
 
 class TestParse(unittest.TestCase):

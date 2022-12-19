@@ -2,8 +2,8 @@
 
 import argparse
 
-from monitor.Capture import Capture
-from monitor.Export import Export
+from console.Capture import Capture
+from console.Export import Export
 
 def main():
 

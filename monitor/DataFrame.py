@@ -5,7 +5,10 @@ import pandas as pd
 
 class DataFrame(object):
 
-    __df : pd.DataFrame = pd.DataFrame()
+    __df : pd.DataFrame
+
+    def __init__(self) -> None:
+        self.__df = pd.DataFrame()
 
     def __lazy_init(self, start: datetime.datetime, end: datetime.datetime):
         index = pd.date_range(start=start, end=end, inclusive='both', freq='s')

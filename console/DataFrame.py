@@ -5,7 +5,7 @@ import pandas as pd
 
 class DataFrame(object):
 
-    __df : pd.DataFrame
+    __df: pd.DataFrame
 
     def __init__(self) -> None:
         self.__df = pd.DataFrame()
@@ -53,5 +53,5 @@ class DataFrame(object):
     def print(self):
         print(self.__df)
 
-    def print(self, start, end):
+    def pprint(self, start, end):
         print(self.__df[start:end])

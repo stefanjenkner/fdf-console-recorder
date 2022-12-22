@@ -25,7 +25,7 @@ class Monitor(object):
                     self.__console.readline()
                     self.on_connected()
 
-                except:
+                except IOError:
                     print(f"Error opening connection via port {self.__console.port}")
                     self.on_disconnected()
                     exit()

@@ -20,13 +20,13 @@ class Export(object):
     __watts: dict[datetime, int]
     __calories_per_hour: dict[datetime, int]
     __speeds: dict[datetime, float]
+    __is_initialized: bool
 
-    _isInitialized: bool = False
     _root = None
     _id = None
     _lap = None
-    _totalTimeSeconds = None
-    _distanceMeters = None
+    _total_time_seconds = None
+    _distance_meters = None
     _maximum_speed = None
     _calories = None
     _intensity = None
@@ -35,7 +35,7 @@ class Export(object):
     _avg_watts = None
     _max_watts = None
     _avg_speed = None
-    _triggerMethod = None
+    _trigger_method = None
     _track = None
 
     def __init__(self):
@@ -44,6 +44,7 @@ class Export(object):
         self.__watts = {}
         self.__calories_per_hour = {}
         self.__speeds = {}
+        self.__is_initialized = False
 
         ET.register_namespace("", TCD_NS)
         ET.register_namespace("xsi", XSI_NS)
@@ -53,14 +54,14 @@ class Export(object):
         activity = ET.SubElement(activities, "Activity", {"Sport": "Other"})
         self._id = ET.SubElement(activity, "Id")
         self._lap = ET.SubElement(activity, "Lap")
-        self._totalTimeSeconds = ET.SubElement(self._lap, "TotalTimeSeconds")
-        self._distanceMeters = ET.SubElement(self._lap, "DistanceMeters")
+        self._total_time_seconds = ET.SubElement(self._lap, "TotalTimeSeconds")
+        self._distance_meters = ET.SubElement(self._lap, "DistanceMeters")
         self._maximum_speed = ET.SubElement(self._lap, "MaximumSpeed")
         self._calories = ET.SubElement(self._lap, "Calories")
         self._avg_heart_rate_value = Export._add_value_element(self._lap, "AverageHeartRateBpm")
         self._max_heart_rate_value = Export._add_value_element(self._lap, "MaximumHeartRateBpm")
         self._intensity = ET.SubElement(self._lap, "Intensity")
-        self._triggerMethod = ET.SubElement(self._lap, "TriggerMethod")
+        self._trigger_method = ET.SubElement(self._lap, "TriggerMethod")
         self._track = ET.SubElement(self._lap, "Track", {})
         extensions = ET.SubElement(self._lap, "Extensions", {})
         lx = ET.SubElement(extensions, "{" + AE_NS + "}LX")
@@ -97,14 +98,14 @@ class Export(object):
 
     def add_track_point(self, capture: Capture):
         """"""
-        if not self._isInitialized:
+        if not self.__is_initialized:
             self._init(capture)
 
         elapsed_time = int(capture.elapsed_time.total_seconds())
         self.__end = capture.utc_time
 
-        self._totalTimeSeconds.text = str(elapsed_time)
-        self._distanceMeters.text = str(capture.distance)
+        self._total_time_seconds.text = str(elapsed_time)
+        self._distance_meters.text = str(capture.distance)
         self.__calories_per_hour[capture.utc_time] = capture.calories_per_hour
 
         trackpoint = ET.SubElement(self._track, "Trackpoint")
@@ -119,7 +120,6 @@ class Export(object):
         cadence.text = str(capture.strokes_per_minute)
 
         if self.__frame:
-            #bpm = self.__frame.get(capture.utc_time, 'BPM_nearest')
             bpm = self.__frame.get(capture.utc_time, 'BPM_linear')
             if bpm:
                 Export._add_value_element(trackpoint, "HeartRateBpm", str(int(bpm)))
@@ -143,50 +143,50 @@ class Export(object):
         self.__start = first_capture.utc_time - first_capture.elapsed_time
 
         self._intensity.text = "Active"
-        self._triggerMethod.text = "Manual"
+        self._trigger_method.text = "Manual"
         formatted_start_time = Export._get_formatted_time(self.__start)
         self._id.text = formatted_start_time
         self._lap.attrib["StartTime"] = formatted_start_time
 
-        self._isInitialized = True
+        self.__is_initialized = True
 
     def _post_processing(self):
         self._update_calories()
         self._update_heart_rate_stats()
         self._update_watts_stats()
         self._update_speed_stats()
-        self.__frame.print(self.__start, self.__end)
+        self.__frame.pprint(self.__start, self.__end)
 
     def _update_calories(self):
         self.__frame.load_from_dict(self.__calories_per_hour, "CalPH")
         self.__frame.interpolate("CalPH", "CalPH_linear", method="linear")
         mean = self.__frame.mean(self.__start, self.__end, "CalPH_linear")
-        total_time_hours = int(self._totalTimeSeconds.text) / 3600
+        total_time_hours = int(self._total_time_seconds.text) / 3600
         self._calories.text = str(round(mean * total_time_hours))
 
     def _update_heart_rate_stats(self):
         try:
             mean = self.__frame.mean(self.__start, self.__end, "BPM_linear")
-            max = self.__frame.max(self.__start, self.__end, "BPM")
+            maximum = self.__frame.max(self.__start, self.__end, "BPM")
             self._avg_heart_rate_value.find("Value").text = str(round(mean))
-            self._max_heart_rate_value.find("Value").text = str(round(max))
-        except:
+            self._max_heart_rate_value.find("Value").text = str(round(maximum))
+        except KeyError:
             self._lap.remove(self._avg_heart_rate_value)
             self._lap.remove(self._max_heart_rate_value)
 
     def _update_watts_stats(self):
         self.__frame.load_from_dict(self.__watts, "Watt")
         mean = self.__frame.mean(self.__start, self.__end, "Watt")
-        max = self.__frame.max(self.__start, self.__end, "Watt")
+        maximum = self.__frame.max(self.__start, self.__end, "Watt")
         self._avg_watts.text = str(round(mean))
-        self._max_watts.text = str(round(max))
+        self._max_watts.text = str(round(maximum))
 
     def _update_speed_stats(self):
         self.__frame.load_from_dict(self.__speeds, "Speed")
         mean = self.__frame.mean(self.__start, self.__end, "Speed")
-        max = self.__frame.max(self.__start, self.__end, "Speed")
+        maximum = self.__frame.max(self.__start, self.__end, "Speed")
         self._avg_speed.text = f'{mean:.02f}'
-        self._maximum_speed.text = f'{max:.02f}'
+        self._maximum_speed.text = f'{maximum:.02f}'
 
     def write(self, f):
         self._post_processing()

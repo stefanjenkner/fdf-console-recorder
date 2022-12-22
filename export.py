@@ -5,11 +5,9 @@ import argparse
 from console.Capture import Capture
 from console.Export import Export
 
-def main():
 
-    parser = argparse.ArgumentParser(
-            prog = 'FDF Console record exporter',
-            description = 'Convert recording to TCX')
+def main():
+    parser = argparse.ArgumentParser(prog='FDF Console record exporter', description='Convert recording to TCX')
 
     parser.add_argument('record_filename', metavar='TXT',
                         help='recordig in TXT format')

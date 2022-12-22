@@ -15,7 +15,7 @@ class TestParse(unittest.TestCase):
     def test_parse(self):
         capture = Capture(1670609153225, "A8001340038410210033165086504")
 
-        self.assertEqual(datetime.datetime(2022, 12, 9, 19, 5, 53, 0), capture.time)
+        self.assertEqual(datetime.datetime(2022, 12, 9, 18, 5, 53, 0, tzinfo=datetime.timezone.utc), capture.utc_time)
         self.assertEqual(94, capture.elapsed_time.total_seconds())
         self.assertEqual(384, capture.distance)
         self.assertEqual(130, capture.time_to_500m.total_seconds())

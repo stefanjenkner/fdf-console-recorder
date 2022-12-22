@@ -19,7 +19,7 @@ class Export(object):
     __frame: DataFrame
     __watts: dict[datetime, int]
     __calories_per_hour: dict[datetime, int]
-    __speed: dict[datetime, float]
+    __speeds: dict[datetime, float]
 
     _isInitialized: bool = False
     _root = None
@@ -110,7 +110,7 @@ class Export(object):
         trackpoint = ET.SubElement(self._track, "Trackpoint")
 
         time = ET.SubElement(trackpoint, "Time")
-        time.text = self._get_formatted_time(capture.utc_time)
+        time.text = Export._get_formatted_time(capture.utc_time)
 
         distance_meters = ET.SubElement(trackpoint, "DistanceMeters")
         distance_meters.text = str(capture.distance)
@@ -144,7 +144,7 @@ class Export(object):
 
         self._intensity.text = "Active"
         self._triggerMethod.text = "Manual"
-        formatted_start_time = self._get_formatted_time(self.__start)
+        formatted_start_time = Export._get_formatted_time(self.__start)
         self._id.text = formatted_start_time
         self._lap.attrib["StartTime"] = formatted_start_time
 

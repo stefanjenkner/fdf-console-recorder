@@ -4,7 +4,7 @@
 		<Activity Sport="Other">
 			<Id>2022-12-11T20:20:41Z</Id>
 			<Lap StartTime="2022-12-11T20:20:41Z">
-				<TotalTimeSeconds>1810</TotalTimeSeconds>
+				<TotalTimeSeconds>1809</TotalTimeSeconds>
 				<DistanceMeters>6015</DistanceMeters>
 				<MaximumSpeed>3.91</MaximumSpeed>
 				<Calories>346</Calories>
@@ -74,17 +74,6 @@
 							<ae:TPX>
 								<ae:Speed>3.73</ae:Speed>
 								<ae:Watts>133</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:20:56Z</Time>
-						<DistanceMeters>42</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.45</ae:Speed>
-								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -200,17 +189,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:21:16Z</Time>
-						<DistanceMeters>113</DistanceMeters>
-						<Cadence>31</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.45</ae:Speed>
-								<ae:Watts>115</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:21:16Z</Time>
 						<DistanceMeters>119</DistanceMeters>
 						<Cadence>32</Cadence>
 						<Extensions>
@@ -294,17 +272,6 @@
 							<ae:TPX>
 								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>116</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:21:33Z</Time>
-						<DistanceMeters>171</DistanceMeters>
-						<Cadence>33</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.52</ae:Speed>
-								<ae:Watts>122</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -497,17 +464,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:22:08Z</Time>
-						<DistanceMeters>291</DistanceMeters>
-						<Cadence>31</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.55</ae:Speed>
-								<ae:Watts>127</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:22:08Z</Time>
 						<DistanceMeters>298</DistanceMeters>
 						<Cadence>31</Cadence>
 						<Extensions>
@@ -684,17 +640,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:22:41Z</Time>
-						<DistanceMeters>404</DistanceMeters>
-						<Cadence>30</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.33</ae:Speed>
-								<ae:Watts>118</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:22:41Z</Time>
 						<DistanceMeters>410</DistanceMeters>
 						<Cadence>31</Cadence>
 						<Extensions>
@@ -822,17 +767,6 @@
 							<ae:TPX>
 								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>120</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:23:06Z</Time>
-						<DistanceMeters>490</DistanceMeters>
-						<Cadence>31</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.45</ae:Speed>
-								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -1267,17 +1201,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:24:25Z</Time>
-						<DistanceMeters>756</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.42</ae:Speed>
-								<ae:Watts>118</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:24:25Z</Time>
 						<DistanceMeters>763</DistanceMeters>
 						<Cadence>30</Cadence>
 						<Extensions>
@@ -1399,17 +1322,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:24:48Z</Time>
-						<DistanceMeters>834</DistanceMeters>
-						<Cadence>31</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.31</ae:Speed>
-								<ae:Watts>112</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:24:48Z</Time>
 						<DistanceMeters>841</DistanceMeters>
 						<Cadence>32</Cadence>
 						<Extensions>
@@ -1498,17 +1410,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:25:05Z</Time>
-						<DistanceMeters>893</DistanceMeters>
-						<Cadence>31</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.42</ae:Speed>
-								<ae:Watts>118</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:25:05Z</Time>
 						<DistanceMeters>899</DistanceMeters>
 						<Cadence>32</Cadence>
 						<Extensions>
@@ -1559,17 +1460,6 @@
 							<ae:TPX>
 								<ae:Speed>3.50</ae:Speed>
 								<ae:Watts>123</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:25:16Z</Time>
-						<DistanceMeters>933</DistanceMeters>
-						<Cadence>31</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.47</ae:Speed>
-								<ae:Watts>118</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -1685,17 +1575,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:25:37Z</Time>
-						<DistanceMeters>1006</DistanceMeters>
-						<Cadence>31</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.50</ae:Speed>
-								<ae:Watts>120</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:25:37Z</Time>
 						<DistanceMeters>1013</DistanceMeters>
 						<Cadence>32</Cadence>
 						<Extensions>
@@ -1757,17 +1636,6 @@
 							<ae:TPX>
 								<ae:Speed>3.68</ae:Speed>
 								<ae:Watts>134</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:25:50Z</Time>
-						<DistanceMeters>1054</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.60</ae:Speed>
-								<ae:Watts>129</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -1845,17 +1713,6 @@
 							<ae:TPX>
 								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>124</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:26:05Z</Time>
-						<DistanceMeters>1107</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.50</ae:Speed>
-								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -1971,17 +1828,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:26:25Z</Time>
-						<DistanceMeters>1179</DistanceMeters>
-						<Cadence>31</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.57</ae:Speed>
-								<ae:Watts>130</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:26:25Z</Time>
 						<DistanceMeters>1186</DistanceMeters>
 						<Cadence>33</Cadence>
 						<Extensions>
@@ -2065,17 +1911,6 @@
 							<ae:TPX>
 								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>129</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:26:42Z</Time>
-						<DistanceMeters>1239</DistanceMeters>
-						<Cadence>31</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.47</ae:Speed>
-								<ae:Watts>120</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -2169,17 +2004,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:26:59Z</Time>
-						<DistanceMeters>1298</DistanceMeters>
-						<Cadence>31</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.50</ae:Speed>
-								<ae:Watts>129</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:26:59Z</Time>
 						<DistanceMeters>1304</DistanceMeters>
 						<Cadence>33</Cadence>
 						<Extensions>
@@ -2246,17 +2070,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:27:12Z</Time>
-						<DistanceMeters>1342</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.33</ae:Speed>
-								<ae:Watts>114</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:27:12Z</Time>
 						<DistanceMeters>1348</DistanceMeters>
 						<Cadence>33</Cadence>
 						<Extensions>
@@ -2318,17 +2131,6 @@
 							<ae:TPX>
 								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>116</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:27:25Z</Time>
-						<DistanceMeters>1386</DistanceMeters>
-						<Cadence>33</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.50</ae:Speed>
-								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -2433,17 +2235,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:27:43Z</Time>
-						<DistanceMeters>1450</DistanceMeters>
-						<Cadence>30</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.47</ae:Speed>
-								<ae:Watts>123</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:27:43Z</Time>
 						<DistanceMeters>1457</DistanceMeters>
 						<Cadence>31</Cadence>
 						<Extensions>
@@ -2527,17 +2318,6 @@
 							<ae:TPX>
 								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>121</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:28:00Z</Time>
-						<DistanceMeters>1510</DistanceMeters>
-						<Cadence>31</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.60</ae:Speed>
-								<ae:Watts>128</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -2631,17 +2411,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:28:17Z</Time>
-						<DistanceMeters>1569</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.50</ae:Speed>
-								<ae:Watts>122</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:28:17Z</Time>
 						<DistanceMeters>1576</DistanceMeters>
 						<Cadence>33</Cadence>
 						<Extensions>
@@ -2714,17 +2483,6 @@
 							<ae:TPX>
 								<ae:Speed>3.57</ae:Speed>
 								<ae:Watts>128</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:28:32Z</Time>
-						<DistanceMeters>1623</DistanceMeters>
-						<Cadence>33</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.62</ae:Speed>
-								<ae:Watts>126</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -2807,17 +2565,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:28:47Z</Time>
-						<DistanceMeters>1675</DistanceMeters>
-						<Cadence>31</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.47</ae:Speed>
-								<ae:Watts>123</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:28:47Z</Time>
 						<DistanceMeters>1681</DistanceMeters>
 						<Cadence>32</Cadence>
 						<Extensions>
@@ -2884,17 +2631,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:29:00Z</Time>
-						<DistanceMeters>1719</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.55</ae:Speed>
-								<ae:Watts>127</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:29:00Z</Time>
 						<DistanceMeters>1726</DistanceMeters>
 						<Cadence>33</Cadence>
 						<Extensions>
@@ -2934,17 +2670,6 @@
 							<ae:TPX>
 								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>118</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:29:09Z</Time>
-						<DistanceMeters>1752</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.52</ae:Speed>
-								<ae:Watts>123</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -3027,17 +2752,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:29:24Z</Time>
-						<DistanceMeters>1804</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.42</ae:Speed>
-								<ae:Watts>114</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:29:24Z</Time>
 						<DistanceMeters>1811</DistanceMeters>
 						<Cadence>31</Cadence>
 						<Extensions>
@@ -3110,17 +2824,6 @@
 							<ae:TPX>
 								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>119</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:29:39Z</Time>
-						<DistanceMeters>1855</DistanceMeters>
-						<Cadence>31</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.42</ae:Speed>
-								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -3208,17 +2911,6 @@
 						<Extensions>
 							<ae:TPX>
 								<ae:Speed>3.38</ae:Speed>
-								<ae:Watts>114</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:29:56Z</Time>
-						<DistanceMeters>1913</DistanceMeters>
-						<Cadence>31</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -3319,17 +3011,6 @@
 							<ae:TPX>
 								<ae:Speed>3.31</ae:Speed>
 								<ae:Watts>115</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:30:15Z</Time>
-						<DistanceMeters>1978</DistanceMeters>
-						<Cadence>31</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.31</ae:Speed>
-								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -3445,17 +3126,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:30:35Z</Time>
-						<DistanceMeters>2047</DistanceMeters>
-						<Cadence>33</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.42</ae:Speed>
-								<ae:Watts>115</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:30:35Z</Time>
 						<DistanceMeters>2053</DistanceMeters>
 						<Cadence>32</Cadence>
 						<Extensions>
@@ -3506,17 +3176,6 @@
 							<ae:TPX>
 								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>117</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:30:46Z</Time>
-						<DistanceMeters>2084</DistanceMeters>
-						<Cadence>34</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.45</ae:Speed>
-								<ae:Watts>118</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -3588,17 +3247,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:30:59Z</Time>
-						<DistanceMeters>2127</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.31</ae:Speed>
-								<ae:Watts>112</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:30:59Z</Time>
 						<DistanceMeters>2133</DistanceMeters>
 						<Cadence>32</Cadence>
 						<Extensions>
@@ -3627,17 +3275,6 @@
 							<ae:TPX>
 								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>118</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:31:06Z</Time>
-						<DistanceMeters>2152</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.40</ae:Speed>
-								<ae:Watts>115</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -3709,17 +3346,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:31:19Z</Time>
-						<DistanceMeters>2196</DistanceMeters>
-						<Cadence>31</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.33</ae:Speed>
-								<ae:Watts>112</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:31:19Z</Time>
 						<DistanceMeters>2203</DistanceMeters>
 						<Cadence>31</Cadence>
 						<Extensions>
@@ -3759,17 +3385,6 @@
 							<ae:TPX>
 								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>114</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:31:28Z</Time>
-						<DistanceMeters>2227</DistanceMeters>
-						<Cadence>33</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.40</ae:Speed>
-								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -3830,17 +3445,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:31:39Z</Time>
-						<DistanceMeters>2263</DistanceMeters>
-						<Cadence>33</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.29</ae:Speed>
-								<ae:Watts>112</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:31:39Z</Time>
 						<DistanceMeters>2268</DistanceMeters>
 						<Cadence>34</Cadence>
 						<Extensions>
@@ -3858,17 +3462,6 @@
 							<ae:TPX>
 								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>114</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:31:44Z</Time>
-						<DistanceMeters>2281</DistanceMeters>
-						<Cadence>33</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.40</ae:Speed>
-								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -3929,17 +3522,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:31:55Z</Time>
-						<DistanceMeters>2317</DistanceMeters>
-						<Cadence>33</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.29</ae:Speed>
-								<ae:Watts>112</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:31:55Z</Time>
 						<DistanceMeters>2323</DistanceMeters>
 						<Cadence>31</Cadence>
 						<Extensions>
@@ -3990,17 +3572,6 @@
 							<ae:TPX>
 								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>114</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:32:06Z</Time>
-						<DistanceMeters>2353</DistanceMeters>
-						<Cadence>33</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.31</ae:Speed>
-								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -4067,17 +3638,6 @@
 							<ae:TPX>
 								<ae:Speed>3.38</ae:Speed>
 								<ae:Watts>121</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:32:19Z</Time>
-						<DistanceMeters>2396</DistanceMeters>
-						<Cadence>33</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.29</ae:Speed>
-								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -4160,17 +3720,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:32:34Z</Time>
-						<DistanceMeters>2445</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.25</ae:Speed>
-								<ae:Watts>112</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:32:34Z</Time>
 						<DistanceMeters>2451</DistanceMeters>
 						<Cadence>34</Cadence>
 						<Extensions>
@@ -4188,17 +3737,6 @@
 							<ae:TPX>
 								<ae:Speed>3.31</ae:Speed>
 								<ae:Watts>110</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:32:39Z</Time>
-						<DistanceMeters>2463</DistanceMeters>
-						<Cadence>33</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.42</ae:Speed>
-								<ae:Watts>117</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -4254,17 +3792,6 @@
 							<ae:TPX>
 								<ae:Speed>3.16</ae:Speed>
 								<ae:Watts>110</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:32:50Z</Time>
-						<DistanceMeters>2498</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.27</ae:Speed>
-								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -4331,17 +3858,6 @@
 							<ae:TPX>
 								<ae:Speed>3.21</ae:Speed>
 								<ae:Watts>109</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:33:03Z</Time>
-						<DistanceMeters>2539</DistanceMeters>
-						<Cadence>33</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.23</ae:Speed>
-								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -4424,17 +3940,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:33:18Z</Time>
-						<DistanceMeters>2585</DistanceMeters>
-						<Cadence>33</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.01</ae:Speed>
-								<ae:Watts>105</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:33:18Z</Time>
 						<DistanceMeters>2591</DistanceMeters>
 						<Cadence>32</Cadence>
 						<Extensions>
@@ -4452,17 +3957,6 @@
 							<ae:TPX>
 								<ae:Speed>3.29</ae:Speed>
 								<ae:Watts>109</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:33:23Z</Time>
-						<DistanceMeters>2603</DistanceMeters>
-						<Cadence>33</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.52</ae:Speed>
-								<ae:Watts>119</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -4523,17 +4017,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:33:34Z</Time>
-						<DistanceMeters>2639</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.18</ae:Speed>
-								<ae:Watts>109</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:33:34Z</Time>
 						<DistanceMeters>2645</DistanceMeters>
 						<Cadence>32</Cadence>
 						<Extensions>
@@ -4584,17 +4067,6 @@
 							<ae:TPX>
 								<ae:Speed>3.09</ae:Speed>
 								<ae:Watts>107</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:33:45Z</Time>
-						<DistanceMeters>2674</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.16</ae:Speed>
-								<ae:Watts>108</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -4666,17 +4138,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:33:58Z</Time>
-						<DistanceMeters>2713</DistanceMeters>
-						<Cadence>33</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>2.96</ae:Speed>
-								<ae:Watts>105</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:33:58Z</Time>
 						<DistanceMeters>2718</DistanceMeters>
 						<Cadence>32</Cadence>
 						<Extensions>
@@ -4705,17 +4166,6 @@
 							<ae:TPX>
 								<ae:Speed>3.01</ae:Speed>
 								<ae:Watts>105</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:34:05Z</Time>
-						<DistanceMeters>2736</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.16</ae:Speed>
-								<ae:Watts>108</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -4760,17 +4210,6 @@
 							<ae:TPX>
 								<ae:Speed>3.16</ae:Speed>
 								<ae:Watts>108</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:34:14Z</Time>
-						<DistanceMeters>2764</DistanceMeters>
-						<Cadence>33</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.12</ae:Speed>
-								<ae:Watts>106</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -4837,17 +4276,6 @@
 							<ae:TPX>
 								<ae:Speed>3.25</ae:Speed>
 								<ae:Watts>108</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:34:27Z</Time>
-						<DistanceMeters>2806</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.45</ae:Speed>
-								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -4930,17 +4358,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:34:42Z</Time>
-						<DistanceMeters>2854</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.14</ae:Speed>
-								<ae:Watts>107</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:34:42Z</Time>
 						<DistanceMeters>2860</DistanceMeters>
 						<Cadence>33</Cadence>
 						<Extensions>
@@ -4969,17 +4386,6 @@
 							<ae:TPX>
 								<ae:Speed>3.23</ae:Speed>
 								<ae:Watts>109</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:34:49Z</Time>
-						<DistanceMeters>2878</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.33</ae:Speed>
-								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -5046,17 +4452,6 @@
 							<ae:TPX>
 								<ae:Speed>3.25</ae:Speed>
 								<ae:Watts>111</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:35:02Z</Time>
-						<DistanceMeters>2920</DistanceMeters>
-						<Cadence>33</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.25</ae:Speed>
-								<ae:Watts>107</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -5134,17 +4529,6 @@
 							<ae:TPX>
 								<ae:Speed>3.27</ae:Speed>
 								<ae:Watts>108</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:35:17Z</Time>
-						<DistanceMeters>2968</DistanceMeters>
-						<Cadence>31</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.40</ae:Speed>
-								<ae:Watts>118</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -5238,17 +4622,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:35:34Z</Time>
-						<DistanceMeters>3021</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.21</ae:Speed>
-								<ae:Watts>107</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:35:34Z</Time>
 						<DistanceMeters>3027</DistanceMeters>
 						<Cadence>33</Cadence>
 						<Extensions>
@@ -5288,17 +4661,6 @@
 							<ae:TPX>
 								<ae:Speed>3.09</ae:Speed>
 								<ae:Watts>107</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:35:43Z</Time>
-						<DistanceMeters>3051</DistanceMeters>
-						<Cadence>33</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.14</ae:Speed>
-								<ae:Watts>106</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -5381,17 +4743,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:35:58Z</Time>
-						<DistanceMeters>3098</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.16</ae:Speed>
-								<ae:Watts>107</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:35:58Z</Time>
 						<DistanceMeters>3104</DistanceMeters>
 						<Cadence>32</Cadence>
 						<Extensions>
@@ -5453,17 +4804,6 @@
 							<ae:TPX>
 								<ae:Speed>3.16</ae:Speed>
 								<ae:Watts>107</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:36:11Z</Time>
-						<DistanceMeters>3140</DistanceMeters>
-						<Cadence>31</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.25</ae:Speed>
-								<ae:Watts>108</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -5557,17 +4897,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:36:28Z</Time>
-						<DistanceMeters>3195</DistanceMeters>
-						<Cadence>30</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.11</ae:Speed>
-								<ae:Watts>108</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:36:28Z</Time>
 						<DistanceMeters>3201</DistanceMeters>
 						<Cadence>32</Cadence>
 						<Extensions>
@@ -5607,17 +4936,6 @@
 							<ae:TPX>
 								<ae:Speed>3.11</ae:Speed>
 								<ae:Watts>107</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:36:37Z</Time>
-						<DistanceMeters>3225</DistanceMeters>
-						<Cadence>31</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.23</ae:Speed>
-								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -5777,17 +5095,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:37:06Z</Time>
-						<DistanceMeters>3315</DistanceMeters>
-						<Cadence>34</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.38</ae:Speed>
-								<ae:Watts>112</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:37:06Z</Time>
 						<DistanceMeters>3321</DistanceMeters>
 						<Cadence>34</Cadence>
 						<Extensions>
@@ -5849,17 +5156,6 @@
 							<ae:TPX>
 								<ae:Speed>3.16</ae:Speed>
 								<ae:Watts>106</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:37:19Z</Time>
-						<DistanceMeters>3357</DistanceMeters>
-						<Cadence>33</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.29</ae:Speed>
-								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -5931,17 +5227,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:37:32Z</Time>
-						<DistanceMeters>3398</DistanceMeters>
-						<Cadence>33</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.07</ae:Speed>
-								<ae:Watts>105</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:37:32Z</Time>
 						<DistanceMeters>3404</DistanceMeters>
 						<Cadence>32</Cadence>
 						<Extensions>
@@ -5981,17 +5266,6 @@
 							<ae:TPX>
 								<ae:Speed>3.21</ae:Speed>
 								<ae:Watts>108</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:37:41Z</Time>
-						<DistanceMeters>3427</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.18</ae:Speed>
-								<ae:Watts>107</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -6069,17 +5343,6 @@
 							<ae:TPX>
 								<ae:Speed>3.23</ae:Speed>
 								<ae:Watts>108</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:37:56Z</Time>
-						<DistanceMeters>3474</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.14</ae:Speed>
-								<ae:Watts>106</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -6184,17 +5447,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:38:14Z</Time>
-						<DistanceMeters>3535</DistanceMeters>
-						<Cadence>31</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.09</ae:Speed>
-								<ae:Watts>108</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:38:14Z</Time>
 						<DistanceMeters>3540</DistanceMeters>
 						<Cadence>34</Cadence>
 						<Extensions>
@@ -6267,17 +5519,6 @@
 							<ae:TPX>
 								<ae:Speed>3.12</ae:Speed>
 								<ae:Watts>106</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:38:29Z</Time>
-						<DistanceMeters>3583</DistanceMeters>
-						<Cadence>33</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.25</ae:Speed>
-								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -6404,17 +5645,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:38:55Z</Time>
-						<DistanceMeters>3657</DistanceMeters>
-						<Cadence>31</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.09</ae:Speed>
-								<ae:Watts>105</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:38:55Z</Time>
 						<DistanceMeters>3663</DistanceMeters>
 						<Cadence>33</Cadence>
 						<Extensions>
@@ -6442,17 +5672,6 @@
 						<Extensions>
 							<ae:TPX>
 								<ae:Speed>3.09</ae:Speed>
-								<ae:Watts>106</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:39:02Z</Time>
-						<DistanceMeters>3681</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.03</ae:Speed>
 								<ae:Watts>106</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -6487,17 +5706,6 @@
 							<ae:TPX>
 								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>114</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:39:09Z</Time>
-						<DistanceMeters>3704</DistanceMeters>
-						<Cadence>35</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.57</ae:Speed>
-								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -6553,17 +5761,6 @@
 							<ae:TPX>
 								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>112</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:39:20Z</Time>
-						<DistanceMeters>3741</DistanceMeters>
-						<Cadence>33</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.50</ae:Speed>
-								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -6635,17 +5832,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:39:33Z</Time>
-						<DistanceMeters>3785</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.31</ae:Speed>
-								<ae:Watts>111</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:39:33Z</Time>
 						<DistanceMeters>3792</DistanceMeters>
 						<Cadence>32</Cadence>
 						<Extensions>
@@ -6674,17 +5860,6 @@
 							<ae:TPX>
 								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>123</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:39:40Z</Time>
-						<DistanceMeters>3812</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.73</ae:Speed>
-								<ae:Watts>138</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -6767,17 +5942,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:39:55Z</Time>
-						<DistanceMeters>3862</DistanceMeters>
-						<Cadence>31</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.57</ae:Speed>
-								<ae:Watts>127</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:39:55Z</Time>
 						<DistanceMeters>3869</DistanceMeters>
 						<Cadence>32</Cadence>
 						<Extensions>
@@ -6839,17 +6003,6 @@
 							<ae:TPX>
 								<ae:Speed>3.36</ae:Speed>
 								<ae:Watts>114</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:40:08Z</Time>
-						<DistanceMeters>3907</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.31</ae:Speed>
-								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -6932,17 +6085,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:40:23Z</Time>
-						<DistanceMeters>3956</DistanceMeters>
-						<Cadence>33</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.47</ae:Speed>
-								<ae:Watts>118</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:40:23Z</Time>
 						<DistanceMeters>3962</DistanceMeters>
 						<Cadence>33</Cadence>
 						<Extensions>
@@ -6960,17 +6102,6 @@
 							<ae:TPX>
 								<ae:Speed>3.16</ae:Speed>
 								<ae:Watts>108</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:40:28Z</Time>
-						<DistanceMeters>3974</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.21</ae:Speed>
-								<ae:Watts>110</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -7053,17 +6184,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:40:43Z</Time>
-						<DistanceMeters>4023</DistanceMeters>
-						<Cadence>33</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.21</ae:Speed>
-								<ae:Watts>107</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:40:43Z</Time>
 						<DistanceMeters>4029</DistanceMeters>
 						<Cadence>34</Cadence>
 						<Extensions>
@@ -7119,17 +6239,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:40:54Z</Time>
-						<DistanceMeters>4059</DistanceMeters>
-						<Cadence>34</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.31</ae:Speed>
-								<ae:Watts>110</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:40:54Z</Time>
 						<DistanceMeters>4065</DistanceMeters>
 						<Cadence>34</Cadence>
 						<Extensions>
@@ -7147,17 +6256,6 @@
 							<ae:TPX>
 								<ae:Speed>3.27</ae:Speed>
 								<ae:Watts>109</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:40:59Z</Time>
-						<DistanceMeters>4077</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.33</ae:Speed>
-								<ae:Watts>114</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -7213,17 +6311,6 @@
 							<ae:TPX>
 								<ae:Speed>3.27</ae:Speed>
 								<ae:Watts>107</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:41:10Z</Time>
-						<DistanceMeters>4112</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.21</ae:Speed>
-								<ae:Watts>108</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -7317,17 +6404,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:41:26Z</Time>
-						<DistanceMeters>4164</DistanceMeters>
-						<Cadence>34</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.29</ae:Speed>
-								<ae:Watts>110</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:41:26Z</Time>
 						<DistanceMeters>4170</DistanceMeters>
 						<Cadence>33</Cadence>
 						<Extensions>
@@ -7405,17 +6481,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:41:40Z</Time>
-						<DistanceMeters>4209</DistanceMeters>
-						<Cadence>34</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.16</ae:Speed>
-								<ae:Watts>107</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:41:40Z</Time>
 						<DistanceMeters>4215</DistanceMeters>
 						<Cadence>34</Cadence>
 						<Extensions>
@@ -7454,17 +6519,6 @@
 						<Extensions>
 							<ae:TPX>
 								<ae:Speed>3.05</ae:Speed>
-								<ae:Watts>105</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:41:49Z</Time>
-						<DistanceMeters>4237</DistanceMeters>
-						<Cadence>34</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>2.98</ae:Speed>
 								<ae:Watts>105</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7521,17 +6575,6 @@
 							<ae:TPX>
 								<ae:Speed>3.21</ae:Speed>
 								<ae:Watts>108</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:42:00Z</Time>
-						<DistanceMeters>4271</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.09</ae:Speed>
-								<ae:Watts>105</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -7614,17 +6657,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:42:14Z</Time>
-						<DistanceMeters>4316</DistanceMeters>
-						<Cadence>32</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.14</ae:Speed>
-								<ae:Watts>106</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:42:14Z</Time>
 						<DistanceMeters>4322</DistanceMeters>
 						<Cadence>32</Cadence>
 						<Extensions>
@@ -7674,17 +6706,6 @@
 						<Extensions>
 							<ae:TPX>
 								<ae:Speed>3.05</ae:Speed>
-								<ae:Watts>105</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:42:25Z</Time>
-						<DistanceMeters>4350</DistanceMeters>
-						<Cadence>33</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.09</ae:Speed>
 								<ae:Watts>105</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -7741,17 +6762,6 @@
 							<ae:TPX>
 								<ae:Speed>3.14</ae:Speed>
 								<ae:Watts>105</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:42:36Z</Time>
-						<DistanceMeters>4383</DistanceMeters>
-						<Cadence>33</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.14</ae:Speed>
-								<ae:Watts>106</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -7823,17 +6833,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:42:48Z</Time>
-						<DistanceMeters>4423</DistanceMeters>
-						<Cadence>34</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.16</ae:Speed>
-								<ae:Watts>106</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:42:48Z</Time>
 						<DistanceMeters>4429</DistanceMeters>
 						<Cadence>34</Cadence>
 						<Extensions>
@@ -7862,17 +6861,6 @@
 							<ae:TPX>
 								<ae:Speed>3.23</ae:Speed>
 								<ae:Watts>108</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:42:55Z</Time>
-						<DistanceMeters>4445</DistanceMeters>
-						<Cadence>36</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.29</ae:Speed>
-								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -7933,34 +6921,12 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:43:05Z</Time>
-						<DistanceMeters>4480</DistanceMeters>
-						<Cadence>39</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.68</ae:Speed>
-								<ae:Watts>134</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:43:05Z</Time>
 						<DistanceMeters>4486</DistanceMeters>
 						<Cadence>37</Cadence>
 						<Extensions>
 							<ae:TPX>
 								<ae:Speed>3.62</ae:Speed>
 								<ae:Watts>132</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:43:08Z</Time>
-						<DistanceMeters>4492</DistanceMeters>
-						<Cadence>39</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.57</ae:Speed>
-								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -8043,33 +7009,11 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:43:21Z</Time>
-						<DistanceMeters>4536</DistanceMeters>
-						<Cadence>37</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.29</ae:Speed>
-								<ae:Watts>110</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:43:21Z</Time>
 						<DistanceMeters>4541</DistanceMeters>
 						<Cadence>38</Cadence>
 						<Extensions>
 							<ae:TPX>
 								<ae:Speed>3.25</ae:Speed>
-								<ae:Watts>109</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:43:24Z</Time>
-						<DistanceMeters>4546</DistanceMeters>
-						<Cadence>36</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.18</ae:Speed>
 								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8082,17 +7026,6 @@
 							<ae:TPX>
 								<ae:Speed>3.31</ae:Speed>
 								<ae:Watts>112</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:43:27Z</Time>
-						<DistanceMeters>4557</DistanceMeters>
-						<Cadence>36</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.18</ae:Speed>
-								<ae:Watts>107</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -8208,34 +7141,12 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:43:45Z</Time>
-						<DistanceMeters>4613</DistanceMeters>
-						<Cadence>38</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.21</ae:Speed>
-								<ae:Watts>106</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:43:45Z</Time>
 						<DistanceMeters>4618</DistanceMeters>
 						<Cadence>38</Cadence>
 						<Extensions>
 							<ae:TPX>
 								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>113</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:43:48Z</Time>
-						<DistanceMeters>4623</DistanceMeters>
-						<Cadence>38</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.52</ae:Speed>
-								<ae:Watts>121</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -8285,33 +7196,11 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:43:56Z</Time>
-						<DistanceMeters>4649</DistanceMeters>
-						<Cadence>35</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.12</ae:Speed>
-								<ae:Watts>105</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:43:56Z</Time>
 						<DistanceMeters>4654</DistanceMeters>
 						<Cadence>36</Cadence>
 						<Extensions>
 							<ae:TPX>
 								<ae:Speed>2.94</ae:Speed>
-								<ae:Watts>105</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:43:59Z</Time>
-						<DistanceMeters>4659</DistanceMeters>
-						<Cadence>38</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.05</ae:Speed>
 								<ae:Watts>105</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8351,33 +7240,11 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:44:06Z</Time>
-						<DistanceMeters>4680</DistanceMeters>
-						<Cadence>36</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.09</ae:Speed>
-								<ae:Watts>105</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:44:06Z</Time>
 						<DistanceMeters>4685</DistanceMeters>
 						<Cadence>36</Cadence>
 						<Extensions>
 							<ae:TPX>
 								<ae:Speed>3.05</ae:Speed>
-								<ae:Watts>105</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:44:09Z</Time>
-						<DistanceMeters>4690</DistanceMeters>
-						<Cadence>36</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.07</ae:Speed>
 								<ae:Watts>105</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8461,17 +7328,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:44:22Z</Time>
-						<DistanceMeters>4734</DistanceMeters>
-						<Cadence>36</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.23</ae:Speed>
-								<ae:Watts>108</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:44:22Z</Time>
 						<DistanceMeters>4740</DistanceMeters>
 						<Cadence>34</Cadence>
 						<Extensions>
@@ -8549,34 +7405,12 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:44:35Z</Time>
-						<DistanceMeters>4776</DistanceMeters>
-						<Cadence>37</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.31</ae:Speed>
-								<ae:Watts>109</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:44:35Z</Time>
 						<DistanceMeters>4782</DistanceMeters>
 						<Cadence>36</Cadence>
 						<Extensions>
 							<ae:TPX>
 								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>110</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:44:38Z</Time>
-						<DistanceMeters>4787</DistanceMeters>
-						<Cadence>37</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.12</ae:Speed>
-								<ae:Watts>105</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -8599,17 +7433,6 @@
 							<ae:TPX>
 								<ae:Speed>3.55</ae:Speed>
 								<ae:Watts>117</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:44:43Z</Time>
-						<DistanceMeters>4803</DistanceMeters>
-						<Cadence>36</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.47</ae:Speed>
-								<ae:Watts>113</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -8681,17 +7504,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:44:54Z</Time>
-						<DistanceMeters>4841</DistanceMeters>
-						<Cadence>38</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.50</ae:Speed>
-								<ae:Watts>118</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:44:54Z</Time>
 						<DistanceMeters>4846</DistanceMeters>
 						<Cadence>39</Cadence>
 						<Extensions>
@@ -8703,33 +7515,11 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:44:57Z</Time>
-						<DistanceMeters>4852</DistanceMeters>
-						<Cadence>39</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.57</ae:Speed>
-								<ae:Watts>119</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:44:57Z</Time>
 						<DistanceMeters>4857</DistanceMeters>
 						<Cadence>39</Cadence>
 						<Extensions>
 							<ae:TPX>
 								<ae:Speed>3.42</ae:Speed>
-								<ae:Watts>112</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:45:00Z</Time>
-						<DistanceMeters>4863</DistanceMeters>
-						<Cadence>38</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.47</ae:Speed>
 								<ae:Watts>112</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -8747,34 +7537,12 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:45:03Z</Time>
-						<DistanceMeters>4873</DistanceMeters>
-						<Cadence>37</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.31</ae:Speed>
-								<ae:Watts>108</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:45:03Z</Time>
 						<DistanceMeters>4878</DistanceMeters>
 						<Cadence>39</Cadence>
 						<Extensions>
 							<ae:TPX>
 								<ae:Speed>3.33</ae:Speed>
 								<ae:Watts>109</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:45:06Z</Time>
-						<DistanceMeters>4883</DistanceMeters>
-						<Cadence>39</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.45</ae:Speed>
-								<ae:Watts>115</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -9066,17 +7834,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:45:46Z</Time>
-						<DistanceMeters>5026</DistanceMeters>
-						<Cadence>36</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.07</ae:Speed>
-								<ae:Watts>106</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:45:46Z</Time>
 						<DistanceMeters>5030</DistanceMeters>
 						<Cadence>38</Cadence>
 						<Extensions>
@@ -9138,17 +7895,6 @@
 							<ae:TPX>
 								<ae:Speed>3.11</ae:Speed>
 								<ae:Watts>106</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:45:57Z</Time>
-						<DistanceMeters>5059</DistanceMeters>
-						<Cadence>38</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.03</ae:Speed>
-								<ae:Watts>105</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -9247,17 +7993,6 @@
 						<Extensions>
 							<ae:TPX>
 								<ae:Speed>2.92</ae:Speed>
-								<ae:Watts>106</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:46:12Z</Time>
-						<DistanceMeters>5104</DistanceMeters>
-						<Cadence>37</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.11</ae:Speed>
 								<ae:Watts>106</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9379,17 +8114,6 @@
 						<Extensions>
 							<ae:TPX>
 								<ae:Speed>2.94</ae:Speed>
-								<ae:Watts>105</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:46:31Z</Time>
-						<DistanceMeters>5162</DistanceMeters>
-						<Cadence>37</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.12</ae:Speed>
 								<ae:Watts>105</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -9561,34 +8285,12 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:46:56Z</Time>
-						<DistanceMeters>5241</DistanceMeters>
-						<Cadence>36</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>2.94</ae:Speed>
-								<ae:Watts>105</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:46:56Z</Time>
 						<DistanceMeters>5246</DistanceMeters>
 						<Cadence>37</Cadence>
 						<Extensions>
 							<ae:TPX>
 								<ae:Speed>3.31</ae:Speed>
 								<ae:Watts>115</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:46:59Z</Time>
-						<DistanceMeters>5252</DistanceMeters>
-						<Cadence>36</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.47</ae:Speed>
-								<ae:Watts>116</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -9671,17 +8373,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:47:12Z</Time>
-						<DistanceMeters>5295</DistanceMeters>
-						<Cadence>37</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.27</ae:Speed>
-								<ae:Watts>108</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:47:12Z</Time>
 						<DistanceMeters>5301</DistanceMeters>
 						<Cadence>38</Cadence>
 						<Extensions>
@@ -9693,34 +8384,12 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:47:15Z</Time>
-						<DistanceMeters>5306</DistanceMeters>
-						<Cadence>38</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.40</ae:Speed>
-								<ae:Watts>114</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:47:15Z</Time>
 						<DistanceMeters>5311</DistanceMeters>
 						<Cadence>38</Cadence>
 						<Extensions>
 							<ae:TPX>
 								<ae:Speed>3.27</ae:Speed>
 								<ae:Watts>107</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:47:18Z</Time>
-						<DistanceMeters>5316</DistanceMeters>
-						<Cadence>38</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.27</ae:Speed>
-								<ae:Watts>108</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -9792,34 +8461,12 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:47:29Z</Time>
-						<DistanceMeters>5354</DistanceMeters>
-						<Cadence>39</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.47</ae:Speed>
-								<ae:Watts>115</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:47:29Z</Time>
 						<DistanceMeters>5359</DistanceMeters>
 						<Cadence>40</Cadence>
 						<Extensions>
 							<ae:TPX>
 								<ae:Speed>3.42</ae:Speed>
 								<ae:Watts>113</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:47:32Z</Time>
-						<DistanceMeters>5364</DistanceMeters>
-						<Cadence>38</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.47</ae:Speed>
-								<ae:Watts>118</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -9946,34 +8593,12 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:47:50Z</Time>
-						<DistanceMeters>5426</DistanceMeters>
-						<Cadence>39</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.47</ae:Speed>
-								<ae:Watts>112</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:47:50Z</Time>
 						<DistanceMeters>5432</DistanceMeters>
 						<Cadence>37</Cadence>
 						<Extensions>
 							<ae:TPX>
 								<ae:Speed>3.40</ae:Speed>
 								<ae:Watts>114</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:47:53Z</Time>
-						<DistanceMeters>5437</DistanceMeters>
-						<Cadence>37</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.31</ae:Speed>
-								<ae:Watts>109</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -10496,17 +9121,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:49:04Z</Time>
-						<DistanceMeters>5681</DistanceMeters>
-						<Cadence>39</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.73</ae:Speed>
-								<ae:Watts>127</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:49:04Z</Time>
 						<DistanceMeters>5687</DistanceMeters>
 						<Cadence>37</Cadence>
 						<Extensions>
@@ -10524,17 +9138,6 @@
 							<ae:TPX>
 								<ae:Speed>3.45</ae:Speed>
 								<ae:Watts>113</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:49:09Z</Time>
-						<DistanceMeters>5698</DistanceMeters>
-						<Cadence>36</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.33</ae:Speed>
-								<ae:Watts>110</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -10947,34 +9550,12 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:50:06Z</Time>
-						<DistanceMeters>5889</DistanceMeters>
-						<Cadence>37</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.47</ae:Speed>
-								<ae:Watts>114</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:50:06Z</Time>
 						<DistanceMeters>5894</DistanceMeters>
 						<Cadence>40</Cadence>
 						<Extensions>
 							<ae:TPX>
 								<ae:Speed>3.25</ae:Speed>
 								<ae:Watts>108</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:50:09Z</Time>
-						<DistanceMeters>5899</DistanceMeters>
-						<Cadence>38</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.38</ae:Speed>
-								<ae:Watts>113</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -10997,17 +9578,6 @@
 							<ae:TPX>
 								<ae:Speed>3.18</ae:Speed>
 								<ae:Watts>106</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:50:14Z</Time>
-						<DistanceMeters>5914</DistanceMeters>
-						<Cadence>38</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.25</ae:Speed>
-								<ae:Watts>108</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>
@@ -11046,17 +9616,6 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:50:20Z</Time>
-						<DistanceMeters>5934</DistanceMeters>
-						<Cadence>39</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.31</ae:Speed>
-								<ae:Watts>109</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:50:20Z</Time>
 						<DistanceMeters>5939</DistanceMeters>
 						<Cadence>37</Cadence>
 						<Extensions>
@@ -11068,33 +9627,11 @@
 					</Trackpoint>
 					<Trackpoint>
 						<Time>2022-12-11T20:50:23Z</Time>
-						<DistanceMeters>5944</DistanceMeters>
-						<Cadence>38</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.09</ae:Speed>
-								<ae:Watts>105</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:50:23Z</Time>
 						<DistanceMeters>5949</DistanceMeters>
 						<Cadence>39</Cadence>
 						<Extensions>
 							<ae:TPX>
 								<ae:Speed>3.01</ae:Speed>
-								<ae:Watts>105</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:50:26Z</Time>
-						<DistanceMeters>5954</DistanceMeters>
-						<Cadence>38</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.09</ae:Speed>
 								<ae:Watts>105</ae:Watts>
 							</ae:TPX>
 						</Extensions>
@@ -11173,17 +9710,6 @@
 							<ae:TPX>
 								<ae:Speed>3.52</ae:Speed>
 								<ae:Watts>124</ae:Watts>
-							</ae:TPX>
-						</Extensions>
-					</Trackpoint>
-					<Trackpoint>
-						<Time>2022-12-11T20:50:38Z</Time>
-						<DistanceMeters>5995</DistanceMeters>
-						<Cadence>39</Cadence>
-						<Extensions>
-							<ae:TPX>
-								<ae:Speed>3.29</ae:Speed>
-								<ae:Watts>111</ae:Watts>
 							</ae:TPX>
 						</Extensions>
 					</Trackpoint>

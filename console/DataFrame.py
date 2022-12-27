@@ -4,7 +4,6 @@ import pandas as pd
 
 
 class DataFrame(object):
-
     __df: pd.DataFrame
 
     def __init__(self) -> None:
@@ -36,6 +35,12 @@ class DataFrame(object):
             pass
         return None
 
+    def apply(self, start, end, func, *args, dropnan_columns=None):
+        df = self.__df[start:end]
+        if dropnan_columns:
+            df = df.dropna(subset=dropnan_columns)
+        return df.apply(func, axis=1, args=args)
+
     def mean(self, start, end, column):
         if self.__df.empty:
             return None
@@ -49,9 +54,6 @@ class DataFrame(object):
         start__round = pd.to_datetime(start).round('S')
         end__round = pd.to_datetime(end).round('S')
         return self.__df[start__round:end__round].max(axis=0)[column]
-
-    def print(self):
-        print(self.__df)
 
     def pprint(self, start, end):
         print(self.__df[start:end])

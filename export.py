@@ -9,15 +9,14 @@ from console.Export import Export
 def main():
     parser = argparse.ArgumentParser(prog='FDF Console record exporter', description='Convert recording to TCX')
 
-    parser.add_argument('record_filename', metavar='TXT',
-                        help='recordig in TXT format')
-    parser.add_argument('--output', '-o', metavar='TCX', required=False,
+    parser.add_argument('record_filename', metavar='TXT_INPUT',
+                        help='recording in TXT format')
+    parser.add_argument('output_filename', metavar='TCX_OUTPUT',
                         help='output file in TCX format')
     parser.add_argument('--fit-input', metavar='FIT_INPUT', required=False,
                         help='secondary source for hear rate data in FIT format')
     parser.add_argument('--tcx-input', metavar='TCX_INPUT', required=False,
                         help='secondary source for hear rate data in TCX format')
-
     args = parser.parse_args()
 
     export = Export()
@@ -32,11 +31,8 @@ def main():
             (milliseconds, data) = line.split(" ")
             export.add_track_point(Capture(int(milliseconds), data))
 
-    if args.output:
-        with open(args.output, 'wb') as f:
-            export.write(f)
-    else:
-        print(export.tostring())
+    with open(args.output_filename, 'wb') as f:
+        export.write(f)
 
 
 if __name__ == "__main__":

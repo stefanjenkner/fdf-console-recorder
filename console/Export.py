@@ -21,6 +21,7 @@ AE_NS = "http://www.garmin.com/xmlschemas/ActivityExtension/v2"
 
 
 class Export(object):
+    __is_initialized: bool
     __start: datetime
     __end: datetime
     __frame: DataFrame
@@ -29,17 +30,17 @@ class Export(object):
     __distance_meters: dict[datetime, int]
     __strokes_per_minute: dict[datetime, int]
     __speeds: dict[datetime, float]
-    __is_initialized: bool
 
     def __init__(self):
 
+        self.__is_initialized = False
+        self.__start, self.__end = (None, None)
         self.__frame = DataFrame()
         self.__watts = {}
         self.__calories_per_hour = {}
         self.__distance_meters = {}
         self.__strokes_per_minute = {}
         self.__speeds = {}
-        self.__is_initialized = False
 
         ET.register_namespace("", TCD_NS)
         ET.register_namespace("xsi", XSI_NS)
@@ -49,11 +50,11 @@ class Export(object):
         """Load external HR data from TCX file."""
         external_heart_rates: dict[datetime.datetime, int] = {}
         tree = ET.parse(filename)
-        for trackpoint in tree.findall(".//{" + TCD_NS + "}Trackpoint[{" + TCD_NS + "}HeartRateBpm]"):
-            almost_iso_time = trackpoint.find("{" + TCD_NS + "}Time").text
+        for track_point in tree.findall(".//{" + TCD_NS + "}Trackpoint[{" + TCD_NS + "}HeartRateBpm]"):
+            almost_iso_time = track_point.find("{" + TCD_NS + "}Time").text
             iso_time = almost_iso_time.replace('Z', '+00:00')
             timestamp = datetime.datetime.fromisoformat(iso_time)
-            bpm = trackpoint.find("{" + TCD_NS + "}HeartRateBpm/{" + TCD_NS + "}Value").text
+            bpm = track_point.find("{" + TCD_NS + "}HeartRateBpm/{" + TCD_NS + "}Value").text
             external_heart_rates[timestamp] = int(bpm)
         self.__frame.load_from_dict(external_heart_rates, BPM)
         self.__frame.interpolate(BPM, BPM_LINEAR, method='linear')
@@ -75,7 +76,8 @@ class Export(object):
         if not self.__is_initialized:
             self.__start = capture.utc_time - capture.elapsed_time
             self.__is_initialized = True
-        self.__end = capture.utc_time
+        if not self.__end or capture.utc_time > self.__end:
+            self.__end = capture.utc_time
 
         self.__calories_per_hour[capture.utc_time] = capture.calories_per_hour
         self.__distance_meters[capture.utc_time] = capture.distance
@@ -109,7 +111,8 @@ class Export(object):
         Export.__add_intensity_and_trigger_method(lap)
 
         track = ET.SubElement(lap, "Track", {})
-        self.__frame.apply(self.__start, self.__end, self.__to_trackpoint, (track), dropnan_columns=[DISTANCE, SPM])
+        self.__frame.apply(self.__start, self.__end, Export.__add_track_point_to_track, track,
+                           dropnan_columns=[DISTANCE, SPM])
 
         extensions = ET.SubElement(lap, "Extensions", {})
         lx = ET.SubElement(extensions, "{" + AE_NS + "}LX")
@@ -120,29 +123,30 @@ class Export(object):
         ET.indent(root, space="\t", level=0)
         ET.ElementTree(root).write(f, encoding='utf-8', method="xml", xml_declaration=True)
 
-    def __to_trackpoint(self, row, track):
+    @staticmethod
+    def __add_track_point_to_track(row, track):
 
-        trackpoint = ET.SubElement(track, "Trackpoint")
-        time = ET.SubElement(trackpoint, "Time")
+        track_point = ET.SubElement(track, "Trackpoint")
+        time = ET.SubElement(track_point, "Time")
         time.text = Export.__get_formatted_time(row.name)
-        distance_meters = ET.SubElement(trackpoint, "DistanceMeters")
+        distance_meters = ET.SubElement(track_point, "DistanceMeters")
         distance_meters.text = str(round(row[DISTANCE]))
-        cadence = ET.SubElement(trackpoint, "Cadence")
+        cadence = ET.SubElement(track_point, "Cadence")
         cadence.text = str(round(row[SPM]))
         try:
             bpm = round(row[BPM_LINEAR])
-            Export.__add_value_element(trackpoint, "HeartRateBpm", str(bpm))
+            Export.__add_value_element(track_point, "HeartRateBpm", str(bpm))
         except KeyError:
             pass
         except ValueError:
             pass
-        extensions = ET.SubElement(trackpoint, "Extensions")
+        extensions = ET.SubElement(track_point, "Extensions")
         tpx = ET.SubElement(extensions, "{" + AE_NS + "}TPX")
         speed = ET.SubElement(tpx, "{" + AE_NS + "}Speed")
         speed.text = f'{row[SPEED]:.02f}'
         watts = ET.SubElement(tpx, "{" + AE_NS + "}Watts")
         watts.text = str(round(row[WATT]))
-        return trackpoint
+        return track_point
 
     def __add_total_time_seconds(self, lap):
         total_seconds = (self.__end - self.__start).total_seconds()

@@ -1,2 +1,12 @@
 /venv/
-__pycache__
+__pycache__/
+
+!samples/1670609153225.tcx
+!samples/1670609153225.txt
+!samples/1670609153225_enhanced.tcx
+!samples/1670609153225_watch.tcx
+!samples/1670790032608.tcx
+!samples/1670790032608.txt
+!samples/1670790032608_enhanced.tcx
+!samples/1670790032608_watch.fit
+samples/

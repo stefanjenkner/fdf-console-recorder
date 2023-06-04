@@ -13,6 +13,6 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements-dev.txt
       - name: Lint
-        run: flake8
+        run: ruff check .
       - name: Test
         run: coverage run -m unittest discover

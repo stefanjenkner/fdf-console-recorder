@@ -1,5 +1,7 @@
 /venv/
 __pycache__/
+.ruff_cache/
+.coverage
 
 !samples/1670609153225.tcx
 !samples/1670609153225.txt

@@ -4,9 +4,6 @@ inline-quotes = double
 multiline-quotes = double
 docstring-quotes = double
 
-ignore =
-    # E501: line too long
-    E501
 
 exclude = venv
 

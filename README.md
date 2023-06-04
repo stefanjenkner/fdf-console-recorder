@@ -32,10 +32,10 @@ In order to load heart rate info from an external source, e.g. FIT file:
 In order to load heart rate info from a TCX file:
 
 ```
-./export.py --fit-input 1670609153225_watch.tcx 1670609153225.txt 1670609153225.tcx
+./export.py --tcx-input 1670609153225_watch.tcx 1670609153225.txt 1670609153225.tcx
 ```
 
 ## Notes
 
-- no support yet to read HR info from FDF console directly (requires additional hardware)
+- there is no support yet to read HR info from FDF console directly (requires additional hardware)
 - BPM information from exteral files (TCX and FIT) are interpolated

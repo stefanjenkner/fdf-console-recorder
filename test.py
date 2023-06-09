@@ -33,8 +33,9 @@ class TestExport(unittest.TestCase):
             for line in f.readlines():
                 (milliseconds, data) = line.split(" ")
                 export.add_track_point(Capture(int(milliseconds), data))
-        with open("samples/1670609153225.tcx", 'wb') as f:
+        with open("samples/1670609153225_test.tcx", 'wb') as f:
             export.write(f)
+        self.assertFileContentEquals("samples/1670609153225.tcx", "samples/1670609153225_test.tcx")
 
     def test_export_write_sample2(self):
         export = Export()
@@ -42,8 +43,9 @@ class TestExport(unittest.TestCase):
             for line in f.readlines():
                 (milliseconds, data) = line.split(" ")
                 export.add_track_point(Capture(int(milliseconds), data))
-        with open("samples/1670790032608.tcx", 'wb') as f:
+        with open("samples/1670790032608_test.tcx", 'wb') as f:
             export.write(f)
+        self.assertFileContentEquals("samples/1670790032608.tcx", "samples/1670790032608_test.tcx")
 
     def test_enhance_export_write_sample1(self):
         export = Export()
@@ -52,8 +54,9 @@ class TestExport(unittest.TestCase):
             for line in f.readlines():
                 (milliseconds, data) = line.split(" ")
                 export.add_track_point(Capture(int(milliseconds), data))
-        with open("samples/1670609153225_enhanced.tcx", 'wb') as f:
+        with open("samples/1670609153225_enhanced_test.tcx", 'wb') as f:
             export.write(f)
+        self.assertFileContentEquals("samples/1670609153225_enhanced.tcx", "samples/1670609153225_enhanced_test.tcx")
 
     def test_enhance_export_write_sample2(self):
         export = Export()
@@ -62,8 +65,14 @@ class TestExport(unittest.TestCase):
             for line in f.readlines():
                 (milliseconds, data) = line.split(" ")
                 export.add_track_point(Capture(int(milliseconds), data))
-        with open("samples/1670790032608_enhanced.tcx", 'wb') as f:
+        with open("samples/1670790032608_enhanced_test.tcx", 'wb') as f:
             export.write(f)
+        self.assertFileContentEquals("samples/1670790032608_enhanced.tcx", "samples/1670790032608_enhanced_test.tcx")
+
+    def assertFileContentEquals(self, reference_filename, test_filename):
+        with open(reference_filename) as expected:
+            with open(test_filename) as actual:
+                self.assertListEqual(list(expected), list(actual))
 
 
 class TestDataFrame(unittest.TestCase):

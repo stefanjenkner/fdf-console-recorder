@@ -1,5 +1,5 @@
 fitdecode==0.10.0
-numpy==1.25.0
+numpy==1.25.1
 pandas==2.0.3
 pyserial==3.5
 python-dateutil==2.8.2

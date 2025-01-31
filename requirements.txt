@@ -3,6 +3,6 @@ numpy==2.2.1
 pandas==2.2.3
 pyserial==3.5
 python-dateutil==2.9.0.post0
-pytz==2024.2
+pytz==2025.1
 scipy==1.15.1
 six==1.17.0

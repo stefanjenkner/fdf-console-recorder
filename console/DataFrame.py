@@ -26,7 +26,7 @@ class DataFrame(object):
     def get(self, at_time: datetime.datetime, column):
         if self.__df.empty:
             return None
-        at_time_round = pd.to_datetime(at_time).round('S')
+        at_time_round = pd.to_datetime(at_time).round('s')
         try:
             return self.__df.at_time(at_time_round)[column].iloc[0]
         except IndexError:
@@ -44,15 +44,15 @@ class DataFrame(object):
     def mean(self, start, end, column):
         if self.__df.empty:
             return None
-        start__round = pd.to_datetime(start).round('S')
-        end__round = pd.to_datetime(end).round('S')
+        start__round = pd.to_datetime(start).round('s')
+        end__round = pd.to_datetime(end).round('s')
         return self.__df[start__round:end__round].mean(axis=0)[column]
 
     def max(self, start, end, column):
         if self.__df.empty:
             return None
-        start__round = pd.to_datetime(start).round('S')
-        end__round = pd.to_datetime(end).round('S')
+        start__round = pd.to_datetime(start).round('s')
+        end__round = pd.to_datetime(end).round('s')
         return self.__df[start__round:end__round].max(axis=0)[column]
 
     def pprint(self, start, end):

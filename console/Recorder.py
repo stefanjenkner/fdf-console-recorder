@@ -17,7 +17,7 @@ class Recorder(Monitor):
         if data[:1] == "A":
             capture = Capture(milliseconds, data)
             self.__update_session_file_if_needed(capture.distance, milliseconds)
-            self.__session_file.write("{} {}\n".format(milliseconds, data))
+            self.__session_file.write(f"{milliseconds} {data}\n")
 
     def on_disconnected(self):
         super().on_disconnected()
@@ -27,14 +27,13 @@ class Recorder(Monitor):
         if self.__is_new_file_required(distance):
             self.__close_session_file()
             filename = str(milliseconds) + ".txt"
-            print("Starting new session: {}".format(filename))
-            self.__session_file = open(filename, "w")
+            print(f"Starting new session: {filename}")
+            self.__session_file = open(filename, "w")  # noqa: SIM115
         self.__session_distance = distance
 
     def __is_new_file_required(self, distance):
-        if distance and self.__session_distance:
-            if distance < self.__session_distance:
-                return True
+        if distance and self.__session_distance and distance < self.__session_distance:
+            return True
         return self.__session_file is None
 
     def __close_session_file(self):

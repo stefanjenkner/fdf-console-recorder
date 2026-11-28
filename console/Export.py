@@ -1,7 +1,7 @@
 import datetime
 import xml.etree.ElementTree as ET
 
-import fitdecode as fitdecode
+import fitdecode
 
 from console.Capture import Capture
 from console.DataFrame import DataFrame
@@ -20,7 +20,7 @@ TCD_NS = "http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2"
 AE_NS = "http://www.garmin.com/xmlschemas/ActivityExtension/v2"
 
 
-class Export(object):
+class Export:
     __is_initialized: bool
     __start: datetime
     __end: datetime
@@ -65,14 +65,13 @@ class Export(object):
         with fitdecode.FitReader(filename) as fit:
             for frame in fit:
                 if frame.frame_type == fitdecode.FIT_FRAME_DATA and frame.name == "record":
-                    timestamp = list(filter(lambda x: x.name == 'timestamp', frame.fields))[0].value
-                    heart_rate = list(filter(lambda x: x.name == 'heart_rate', frame.fields))[0].value
+                    timestamp = next(filter(lambda x: x.name == 'timestamp', frame.fields)).value
+                    heart_rate = next(filter(lambda x: x.name == 'heart_rate', frame.fields)).value
                     external_heart_rates[timestamp] = int(heart_rate)
         self.__frame.load_from_dict(external_heart_rates, BPM)
         self.__frame.interpolate(BPM, BPM_LINEAR, method='linear')
 
     def add_track_point(self, capture: Capture):
-        """"""
         if not self.__is_initialized:
             self.__start = capture.utc_time - capture.elapsed_time
             self.__is_initialized = True

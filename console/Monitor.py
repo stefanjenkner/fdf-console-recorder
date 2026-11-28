@@ -1,9 +1,10 @@
+import sys
 import time
 
 import serial
 
 
-class Monitor(object):
+class Monitor:
 
     def __init__(self, port) -> None:
         self.__console = serial.Serial()
@@ -21,14 +22,14 @@ class Monitor(object):
             if not self.__console.is_open:
                 try:
                     self.__console.open()
-                    self.__console.write('C\n'.encode('utf-8'))
+                    self.__console.write(b'C\n')
                     self.__console.readline()
                     self.on_connected()
 
-                except IOError:
+                except OSError:
                     print(f"Error opening connection via port {self.__console.port}")
                     self.on_disconnected()
-                    exit()
+                    sys.exit()
 
             try:
                 time.sleep(500 / 1000)
@@ -39,7 +40,7 @@ class Monitor(object):
             except KeyboardInterrupt:
                 print("Interrupted.")
                 self.__disconnect()
-                exit()
+                sys.exit()
 
     def on_connected(self):
         print("Connected.")
@@ -61,6 +62,6 @@ class Monitor(object):
     def __disconnect(self):
         if self.__console.is_open:
             print("Closing connection.")
-            self.__console.write('D\n'.encode('utf-8'))
+            self.__console.write(b'D\n')
             self.__console.close()
         self.on_disconnected()

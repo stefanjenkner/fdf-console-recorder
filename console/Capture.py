@@ -1,7 +1,7 @@
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 
 
-class Capture(object):
+class Capture:
 
     time: datetime = None
     utc_time: datetime = None
@@ -18,7 +18,7 @@ class Capture(object):
     def __init__(self, milliseconds: int, raw: str):
         assert raw[0] == 'A'
 
-        self.utc_time = datetime.fromtimestamp(int(milliseconds / 1000), tz=timezone.utc)
+        self.utc_time = datetime.fromtimestamp(int(milliseconds / 1000), tz=UTC)
 
         total_minutes = int(raw[3:5], base=10)
         total_seconds = int(raw[5:7], base=10)

@@ -3,7 +3,7 @@ import datetime
 import pandas as pd
 
 
-class DataFrame(object):
+class DataFrame:
     __df: pd.DataFrame
 
     def __init__(self) -> None:

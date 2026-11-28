@@ -27,7 +27,7 @@ def main():
         export.load_heart_rate_from_tcx(args.tcx_input)
 
     with open(args.record_filename, 'r', encoding='utf-8') as f:
-        for line in f.readlines():
+        for line in f:
             (milliseconds, data) = line.split(" ")
             export.add_track_point(Capture(int(milliseconds), data))
 
